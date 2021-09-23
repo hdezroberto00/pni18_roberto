@@ -1,3 +1,3 @@
 1. Pongo imagen
 
-[](img/001.png)
+![](img/001.png)
