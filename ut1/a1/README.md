@@ -59,6 +59,8 @@
 **Red celular**: Si no recibes cobertura no puedes acceder a la red.
 
 
+
+
 ## 6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
 
 ## 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
