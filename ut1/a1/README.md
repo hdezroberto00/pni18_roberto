@@ -48,6 +48,16 @@
 
 **Anillo doble**: Se necesita el doble de cableado que en una red de anillo simple.
 
+**Malla completa**: Tiene un alto coste de instalación.
+
+**Estrella**: Si se cae el concentrador deja de funcionar toda la red.
+
+**Estrella extendida**: Si el nodo central falla, toda la red deja de funcionar.
+
+**Árbol**: Se requiere mucho cable en la instalación.
+
+**Red celular**: Si no recibes cobertura no puedes acceder a la red.
+
 
 ## 6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
 
