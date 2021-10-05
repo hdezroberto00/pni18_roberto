@@ -35,9 +35,13 @@
 ## 4. Enumere las cinco topologías básicas de red.
 
 · Malla
+
 · Estrella
+
 · Árbol
+
 · Bus
+
 · Anillo
 
 ## 5. Indique una desventaja de cada tipo de topología de red.
