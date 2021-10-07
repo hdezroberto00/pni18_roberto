@@ -12,7 +12,7 @@
 
 3. Para pasar de binario a octal
 
-         a) 111010101 Solución:
+         a) 111010101 Solución: 725
 
          b) 11011, 01 Solución:
 
