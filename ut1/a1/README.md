@@ -131,3 +131,31 @@ Bus
 <img src="./img/redes.png" alt="imagen ejercicio" height="300px" width="400px">
 
 </div>
+
+· Figura 1: Bus
+
+· Figura 2: **¿Anillo?**
+
+· Figura 3: 
+
+· Figura 4: Árbol
+
+· Figura 5: **¿Anillo?**
+
+18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
+
+       a ) Se pueden añadir nuevos dispositivos fácilmente.
+
+       b ) El control se efectúa a través de un nodo central.
+
+       c) El tiempo de transmisión se gasta reenviando los datos a través de nodos intermedios.
+
+19. Cuando alguien hace una llamada telefónica local a otra persona, ¿está usando una configuración de línea punto a punto o multipunto? Explique su respuesta.
+
+20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
+
+     a ) Una conexión computadora a monitor.
+
+     b ) Una conversación educada entre tía Gertrudis y tía Rowena. 
+
+     c ) Una emisión por televisión.
