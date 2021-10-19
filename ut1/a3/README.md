@@ -31,30 +31,29 @@ El intervalo de bit es el tiempo necesario para enviar un único bit. Su contra 
 La tasa de bits define el número de bits que se transmiten por unidad de tiempo a través de un sistema de transmisión digital. En la señal analógica es la frecuencia.
 
 ## 9. Antes de poder transmitir la información, debe transformarse en:
-~~~
+
 b. señales electromagnéticas
-~~~
+
 ## 10. Una señal periódica completa un ciclo en 0,001 segundo. ¿Cuál es su frecuencia?
-~~~
+
 c. 1 KHz 
-~~~
+
 ## 11. ¿Cuál de las respuestas siguientes se puede determinar mediante un gráfico en el dominio de la frecuencia de una señal?
-~~~
+
 a. ancho de banda
-~~~
+
 ## 12.¿Cuál es el ancho de banda de una señal cuyo rango varía de 40 KHz a 4 MHz?
-~~~
+
 c. 3,96 MHz 
-~~~
+
 ## 13. Una señal periódica siempre se puede descomponer en:
-~~~
+
 un conjunto de ondas seno
-~~~
+
 ## 14. Si la amplitud máxima de una onda seno es de 2 voltios, la amplitud mínima es
-~~~
+
 c. -2
-~~~
+
 ## 15. Una onda seno completa 1.000 ciclos en un segundo. ¿Cuál es su periodo?
-~~~
+
 a. 1 ms
-~~~
