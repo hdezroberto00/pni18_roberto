@@ -127,5 +127,8 @@ Bus
 ## 17. Defina el tipo de topología de las siguientes figuras:
 
 
+<div align="center>
 
-<img src="./img/redes.png" alt="imagen ejercicio" height="200px" width="200px" align="middle">
+<img src="./img/redes.png" alt="imagen ejercicio" height="200px" width="200px" >
+
+</div>
