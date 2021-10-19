@@ -1,10 +1,14 @@
 ## 1. Defina los tres modos de transmisión.
 
+~~~
+
 **Simplex**: Es unidireccional. La televisión o la radio.
 
 **Half-duplex**: Es bidireccional pero no pueden fluir datos en sentidos opuestos de forma simultánea.
 
 **Full-duplex**: Las comunicaciones pueden ir en ambos sentidos de forma simultánea.
+
+~~~
 
 ## 2. Indique las ventajas de cada tipo de topología de red.
 
