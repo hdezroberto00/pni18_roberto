@@ -1,35 +1,35 @@
 ## 1. ¿Cuál es la diferencia entre información y señales?
-~~~
+
 La información es lo que se quiere transmitir y las señales son la manera en la que se transmite la información.
-~~~
+
 ## 2. Da dos ejemplos de información analógica y dos de digital.
-~~~
+
 **----------**
-~~~
+
 ## 3. Se ha recibido una señal que solamente tiene valores –1, 0 y 1 ¿Es esta una señal analógica o digital? Razona la respuesta.
-~~~
+
 **----------**
-~~~
+
 ## 4. ¿Cuál es la relación entre el periodo y la frecuencia?
-~~~
+
 El periodo es el tiempo necesario para completar un ciclo de onda, la frecuencia es la cantidad de ciclos por segundo.
-~~~
+
 ## 5. ¿Cuál es la diferencia entre una señal periódica simple y una señal periódica compuesta?
-~~~
+
 Una señal periódica completa un patrón dentro de un marco de tiempo y repite ese patrón en periodos idénticos subsecuentes. Una señal periódica compuesta está formada por múltiples ondas seno, por lo tanto, por múltiples señales periódicas simples.
-~~~
+
 ## 6. ¿Cuál es el ancho de banda en relación a su espectro de frecuencias?
-~~~
+
 El ancho de banda es la longitud, medida en hercios, de la extensión de frecuencias en la que se concentra la mayor parte de la señal.
-~~~
+
 ## 7. ¿Qué es el intervalo de bit y cuál es su contraparte en una señal analógica?
-~~~
+
 El intervalo de bit es el tiempo necesario para enviar un único bit. Su contra parte en la señal analógica es el intervalo
-~~~
+
 ## 8. Idem para la tasa de bits.
-~~~
+
 La tasa de bits define el número de bits que se transmiten por unidad de tiempo a través de un sistema de transmisión digital. En la señal analógica es la frecuencia.
-~~~
+
 ## 9. Antes de poder transmitir la información, debe transformarse en:
 ~~~
 b. señales electromagnéticas
