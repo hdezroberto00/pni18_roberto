@@ -126,4 +126,4 @@ Bus
 
 ## 17. Defina el tipo de topología de las siguientes figuras:
 
-
+![](/home/roberto/pni18_roberto/ut1/a1/img/redes.png)
