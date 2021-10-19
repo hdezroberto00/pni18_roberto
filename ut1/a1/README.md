@@ -88,21 +88,41 @@
 
 ## 8. ¿Qué es una intranet? ¿Qué es Internet?
 
+Una **intranet** es una red de una empresa en la que, por motivos de seguridad, no pueden acceder los usuarios de internet.
+
+**Internet** es una red formada por otras cientos de miles de subredes y por decenas de millones de usuarios.
+
 ## 9. ¿Qué topología necesita un controlador central o un concentrador?
+
+Red en estrella
 
 ## 10. La comunicación entre una computadora y un teclado implica una transmisión _________
 
+Simplex
+
 ## 11. En una red con 25 computadoras, ¿qué topología necesitaría el cableado más extenso?
+
+La topología de red en malla, ya que todos los ordenadores deben estar conectados entre si.
 
 ## 12. Una topología en árbol es una variación de una topología en _____________
 
+Estrella
+
 ## 13. Una conexión ___________   proporciona un enlace dedicado entre dos dispositivos.
+
+Punto a punto
 
 ## 14.En la transmisión__________________   , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.
 
+Full-duplex
+
 ## 15. Una rotura de cable en una topología en _______________   detiene toda la transmisión.
 
+Bus
+
 ## 16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en____________
+
+Árbol
 
 ## 17. Defina el tipo de topología de las siguientes figuras:
 
