@@ -142,7 +142,7 @@ Bus
 
 · Figura 5: **¿Anillo?**
 
-18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
+## 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
        a ) Se pueden añadir nuevos dispositivos fácilmente.
 
@@ -150,9 +150,12 @@ Bus
 
        c) El tiempo de transmisión se gasta reenviando los datos a través de nodos intermedios.
 
-19. Cuando alguien hace una llamada telefónica local a otra persona, ¿está usando una configuración de línea punto a punto o multipunto? Explique su respuesta.
+       
+## 19. Cuando alguien hace una llamada telefónica local a otra persona, ¿está usando una configuración de línea punto a punto o multipunto? Explique su respuesta.
 
-20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
+
+
+## 20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
 
      a ) Una conexión computadora a monitor.
 
