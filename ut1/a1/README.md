@@ -128,4 +128,4 @@ Bus
 
 
 
-<img src="./img/redes.png" alt="imagen ejercicio">
+<img src="./img/redes.png" alt="imagen ejercicio" height="200px" width="200px" align="center" >
