@@ -1,14 +1,10 @@
 ## 1. Defina los tres modos de transmisión.
 
-~~~
-
 **Simplex**: Es unidireccional. La televisión o la radio.
 
 **Half-duplex**: Es bidireccional pero no pueden fluir datos en sentidos opuestos de forma simultánea.
 
 **Full-duplex**: Las comunicaciones pueden ir en ambos sentidos de forma simultánea.
-
-~~~
 
 ## 2. Indique las ventajas de cada tipo de topología de red.
 
@@ -138,13 +134,13 @@ Bus
 
 · Figura 1: Bus
 
-· Figura 2: **¿Anillo?**
+· Figura 2: Estrella
 
-· Figura 3: 
+· Figura 3: Estrella extendida
 
 · Figura 4: Árbol
 
-· Figura 5: **¿Anillo?**
+· Figura 5: Anillo
 
 ## 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
@@ -157,12 +153,12 @@ Bus
 
 ## 19. Cuando alguien hace una llamada telefónica local a otra persona, ¿está usando una configuración de línea punto a punto o multipunto? Explique su respuesta.
 
-punto a punto
+Punto a punto ya que se realiza a través de un mismo dispositivo.
 
 ## 20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
 
-     a ) Una conexión computadora a monitor: Full duplex.
+     a ) Una conexión computadora a monitor: Semi-duplex.
 
-     b ) Una conversación educada entre tía Gertrudis y tía Rowena: Half-duplex.
+     b ) Una conversación educada entre tía Gertrudis y tía Rowena: Full-dúplex.
 
      c ) Una emisión por televisión: Simplex.
