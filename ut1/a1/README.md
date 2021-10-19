@@ -52,22 +52,39 @@
 
 **Anillo doble**: Se necesita el doble de cableado que en una red de anillo simple.
 
-**Malla completa**: Tiene un alto coste de instalación.
+**Malla**: Tiene un alto coste de instalación.
 
 **Estrella**: Si se cae el concentrador deja de funcionar toda la red.
 
 **Estrella extendida**: Si el nodo central falla, toda la red deja de funcionar.
 
-**Árbol**: Se requiere mucho cable en la instalación.
+**Jerárquica**: Se requiere mucho cable en la instalación.
 
 **Red celular**: Si no recibes cobertura no puedes acceder a la red.
 
-
-
-
 ## 6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
 
+**Malla**: n(n-1)/2
+
+**Estrella**: n
+
+**Anillo**: n
+
+**Bus**: Un cable que actúa como red troncal y n líneas de conexión que conectan el dispositivo al cable principal.
+
 ## 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
+
+**Bus**: Solo hay un cable, por lo tanto si falla deja de funcionar toda la red.
+
+**Anillo**: Por ser unidireccional, una ruptura en cualquier enlace del anillo, inhabilita toda la red.
+
+**Malla**: Si falla un cable no afecta a los demás dispositivos ya que se reencamina por los otros.
+
+**Estrella**: Si falla un enlace, solamente ese se ve afectado.
+
+**Estrella extendida**: Solo deja de funcionar el enlace del cable que falla, y sus derivados.
+
+**Jerárquica**: Solo falla el enlace del cable que deja de funcionar. 
 
 ## 8. ¿Qué es una intranet? ¿Qué es Internet?
 
