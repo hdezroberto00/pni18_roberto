@@ -126,5 +126,7 @@ Bus
 
 ## 17. Defina el tipo de topología de las siguientes figuras:
 
+adjakjdkaj
+
 
 <img src="./img/redes.png" alt="imagen ejercicio" height="200px" width="200px" >
