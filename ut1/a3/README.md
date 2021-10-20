@@ -4,11 +4,13 @@ La información es lo que se quiere transmitir y las señales son la manera en l
 
 ## 2. Da dos ejemplos de información analógica y dos de digital.
 
-**----------**
+**Información analógica**: Tiempo y presión.
+
+**Información digital**: Los datos binarios.
 
 ## 3. Se ha recibido una señal que solamente tiene valores –1, 0 y 1 ¿Es esta una señal analógica o digital? Razona la respuesta.
 
-**----------**
+Analógica, porque las señales digitales usan valores finitos.
 
 ## 4. ¿Cuál es la relación entre el periodo y la frecuencia?
 
