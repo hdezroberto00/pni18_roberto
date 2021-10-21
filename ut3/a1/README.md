@@ -18,25 +18,36 @@
 ## 18. El nivel____________ decide la localización de los puntos de sincronización.
 
 + transporte
+
 + sesión
-presentación
-aplicación
 
-    19. En el nivel _______________, la unidad de datos se denomina trama.
++ presentación
 
-físico
-enlace de datos
-red
-transporte
-     20. Los servicios de correo y de directorio están disponibles a los usuarios de la red a través del nivel:
++ aplicación
 
-enlace de datos
-sesión
-transporte
-aplicación
-     21. A medida que los paquetes de datos se mueven  de los niveles inferiores a los superiores las cabeceras:
+## 19. En el nivel _______________, la unidad de datos se denomina trama.
 
-añadidas
-eliminadas
-recolocadas
-modificadas
++ físico
+
++ enlace de datos
+
++ red
+
++ transporte
+
+## 20. Los servicios de correo y de directorio están disponibles a los usuarios de la red a través del nivel:
+
++ enlace de datos
+
++ sesión
+
++ transporte
+
++ aplicación
+
+## 21. A medida que los paquetes de datos se mueven  de los niveles inferiores a los superiores las cabeceras:
+
++ añadidas
++ eliminadas
++ recolocadas
++ modificadas
