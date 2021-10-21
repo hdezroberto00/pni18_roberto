@@ -6,7 +6,7 @@ La información es lo que se quiere transmitir y las señales son la manera en l
 
 **Información analógica**: Tiempo y presión.
 
-**Información digital**: Los datos binarios.
+**Información digital**: Los datos binarios, el sonido digital que registra un micrófono.
 
 ## 3. Se ha recibido una señal que solamente tiene valores –1, 0 y 1 ¿Es esta una señal analógica o digital? Razona la respuesta.
 
@@ -26,7 +26,7 @@ El ancho de banda es la longitud, medida en hercios, de la extensión de frecuen
 
 ## 7. ¿Qué es el intervalo de bit y cuál es su contraparte en una señal analógica?
 
-El intervalo de bit es el tiempo necesario para enviar un único bit. Su contra parte en la señal analógica es el intervalo
+El intervalo de bit es el tiempo necesario para enviar un único bit. Su contra parte en la señal analógica es el intervalo.
 
 ## 8. Idem para la tasa de bits.
 
