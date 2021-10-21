@@ -1,88 +1,43 @@
-## 1. ¿Cuál es la diferencia entre información y señales?
+## 1. ¿Qué niveles OSI son los niveles de soporte de red? 
+## 2. ¿Qué niveles OSI son los niveles de soporte de usuario? 
+## 3. ¿Cómo están OSI e ISO relacionadas entre sí? 
+## 4. Enumere los niveles del modelo OSI. 
+## 5. ¿Cómo pasa la información de un nivel OSI al siguiente? 
+## 6. ¿Qué son las cabeceras y cola y cómo se añaden y se quitan? 
+## 7. ¿Cuáles son las responsabilidades del nivel físico? 
+## 8. ¿Cuáles son las responsabilidades del nivel de enlace? 
+## 9. ¿Cuáles son las responsabilidades del nivel de red? 
+## 10. ¿Cuáles son las responsabilidades del nivel de transporte? 
+## 11. El nivel de transporte crea una conexión entre el origen y el destino. ¿Cuáles son los tres eventos involucrados en la conexión? 
+## 12. ¿Cuál es la diferencia entre una dirección de punto en servicio, una dirección lógica y una dirección fisica? 
+## 13. ¿Cuáles son las responsabilidades del nivel de sesión? 
+## 14. ¿Cuáles son las responsabilidades del nivel de presentación? 
+## 15. ¿Cuál es el objetivo de la traducción en el nivel de presentación? 
+## 16. Indique alguno de los servicios proporcionados por el nivel de aplicación. 
+## 17. ¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
+## 18. El nivel____________ decide la localización de los puntos de sincronización.
 
-## 2. Da dos ejemplos de información analógica y dos de digital.
+··* transporte
 
-## 3. Se ha recibido una señal que solamente tiene valores –1, 0 y 1 ¿Es esta una señal analógica o digital? Razona la respuesta.
+··* sesión
+presentación
+aplicación
 
-## 4. ¿Cuál es la relación entre el periodo y la frecuencia?
+    19. En el nivel _______________, la unidad de datos se denomina trama.
 
-## 5. ¿Cuál es la diferencia entre una señal periódica simple y una señal periódica compuesta?
+físico
+enlace de datos
+red
+transporte
+     20. Los servicios de correo y de directorio están disponibles a los usuarios de la red a través del nivel:
 
-## 6. ¿Cuál es el ancho de banda en relación a su espectro de frecuencias?
+enlace de datos
+sesión
+transporte
+aplicación
+     21. A medida que los paquetes de datos se mueven  de los niveles inferiores a los superiores las cabeceras:
 
-## 7. ¿Qué es el intervalo de bit y cuál es su contraparte en una señal analógica?
-
-## 8. Idem para la tasa de bits.
-
-## 9. Antes de poder transmitir la información, debe transformarse en:
-
-a. señales periódicas
-
-b. señales electromagnéticas
-
-c. señales aperiódicas
-
-d. onda seno de baja frecuencia
-
-## 10. Una señal periódica completa un ciclo en 0,001 segundo. ¿Cuál es su frecuencia?
-
-a. 1 Hz
-
-b. 100 Hz 
-
-c. 1 KHz 
-
-d. 1 MHz
-
-
-## 11. ¿Cuál de las respuestas siguientes se puede determinar mediante un gráfico en el dominio de la frecuencia de una señal?
-
-a. ancho de banda
-
-b. fase
-
-c. potencia
-
-d. todas las anteriores
-
-## 12.¿Cuál es el ancho de banda de una señal cuyo rango varía de 40 KHz a 4 MHz?
-
-a. 36 MHz 
-
-b. 360 KHz 
-
-c. 3,96 MHz 
-
-d. 396 KHz
-
-
-
-## 13. Una señal periódica siempre se puede descomponer en:
-
-exactamente un número impar de ondas seno
-
-un conjunto de ondas seno
-
-un conjunto de ondas seno, cada uno de los cuales debe tener una fase de cero grados
-
-ninguna de las anteriores.
-
-## 14. Si la amplitud máxima de una onda seno es de 2 voltios, la amplitud mínima es
-
-a. 2
-
-b. 1
-
-c. -2
-
-d. entre -2 y 2
-
-## 15. Una onda seno completa 1.000 ciclos en un segundo. ¿Cuál es su periodo?
-
-a. 1 ms
-
-b. 10 ms
-
-c. 100 ms 
-
-d. 1.000 ms
+añadidas
+eliminadas
+recolocadas
+modificadas
