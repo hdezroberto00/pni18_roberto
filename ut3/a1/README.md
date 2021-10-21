@@ -17,9 +17,8 @@
 ## 17. ¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
 ## 18. El nivel____________ decide la localización de los puntos de sincronización.
 
-···* transporte
-
-···* sesión
+··* transporte
+··* sesión
 presentación
 aplicación
 
