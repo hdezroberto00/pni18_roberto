@@ -157,8 +157,8 @@ Punto a punto ya que se realiza a través de un mismo dispositivo.
 
 ## 20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
 
-     a ) Una conexión computadora a monitor: Semi-duplex.
+     a ) Una conexión computadora a monitor: Simplex.
 
-     b ) Una conversación educada entre tía Gertrudis y tía Rowena: Full-dúplex.
+     b ) Una conversación educada entre tía Gertrudis y tía Rowena: Semi-Duplex.
 
      c ) Una emisión por televisión: Simplex.
