@@ -61,44 +61,51 @@ Provee comunicación entre entidades finales. Hace multiplexamiento. Garantiza l
 + Liberación de la conexión.
 
 ## 12. ¿Cuál es la diferencia entre una dirección de punto en servicio, una dirección lógica y una dirección fisica? 
+
++ Una dirección lógica está dada por la IP.
+
++ Una dirección física está dada por la MAC.
+
 ## 13. ¿Cuáles son las responsabilidades del nivel de sesión? 
+
+Establece, coordina y termina las conversacones entre aplicaciones.
+
+Administra el intercambio de datos y sincroniza el diálogo entre niveles de presentación de cada sistema.
+
+Ofrece las herramientas para que la capa de aplicación, la de presentación, y la de sesión reporten sus problemas y los recursos disponibles para la comunicación.
+
 ## 14. ¿Cuáles son las responsabilidades del nivel de presentación? 
+
+Se ocupa de los aspectos de sintaxis y semántica de la información que se transmite. Compatibiliza la codificación y compime los datos.
+
 ## 15. ¿Cuál es el objetivo de la traducción en el nivel de presentación? 
+
+Traducir la información a flujos de bits antes de transmitirla, ya que cada computadora usa un sistema de codificación distinto.
+
 ## 16. Indique alguno de los servicios proporcionados por el nivel de aplicación. 
+
++ Correo electrónico.
+
++ FTP
+
++ Telnet
+
 ## 17. ¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
+
+El nivel de aplicación, presentación y sesión del modelo OSI se agrupa en el nivel de aplicación del protocolo TCP/IP. El nivel de vínculo de datos y nivel físico del modelo OSI se agrupa en el nivel de interfaz de red del protocolo TCP/IP. El nivel de transporte y el de red se mantienen iguales en ambos.
+
 ## 18. El nivel____________ decide la localización de los puntos de sincronización.
 
-+ transporte
-
 + sesión
-
-+ presentación
-
-+ aplicación
 
 ## 19. En el nivel _______________, la unidad de datos se denomina trama.
 
-+ físico
-
 + enlace de datos
-
-+ red
-
-+ transporte
 
 ## 20. Los servicios de correo y de directorio están disponibles a los usuarios de la red a través del nivel:
-
-+ enlace de datos
-
-+ sesión
-
-+ transporte
 
 + aplicación
 
 ## 21. A medida que los paquetes de datos se mueven  de los niveles inferiores a los superiores las cabeceras:
 
-+ añadidas
 + eliminadas
-+ recolocadas
-+ modificadas
