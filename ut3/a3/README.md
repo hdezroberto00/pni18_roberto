@@ -24,6 +24,8 @@
 
 3. Dada la dirección de red `192.168.55.0`, indica qué máscara de subred deberías escoger para tener 8 subredes. Rellena a continuación la siguiente tabla.
 
+~~~
+
 Máscara de red: 255.255.255.0
 
 11111111.11111111.11111111.11100000 Cojo los 3 primeros bits del último octeto para la subred.
@@ -45,6 +47,8 @@ Máscara de subred: 255.255.255.224
 11000000.10101000.00110111.11000000--> 192.168.55.192
 
 11000000.10101000.00110111.11100000--> 192.168.55.224
+
+~~~
 
 <center>
 
