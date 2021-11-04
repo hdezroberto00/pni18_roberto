@@ -171,12 +171,12 @@ Los 3 últimos octetos, porque el primero es para la red.
 
 | Dirección `ip`  | ¿La dirección es válida? | ¿Por qué? |
 |-----------------|--------------------------|-----------|
-| 150.100.255.255 |                          |           |
-| 175.100.255.18  |                          |           |
-| 100.0.0.23      |                          |           |
-| 188.258.221.176 |                          |           |
-| 127.34.25.189   |                          |           |
-| 224.156.217.73  |                          |           |
+| 150.100.255.255 | No                         |Usa la dirección reservada para broadcast           |
+| 175.100.255.18  | Si                         |           |
+| 100.0.0.23      | Si                         |Es de clase A, y la dirección de host en la número 23           |
+| 188.258.221.176 | No                         |La dirección de red se pasa de 255           |
+| 127.34.25.189   | No                         |127 Está reservado           |
+| 224.156.217.73  | No                         |224 Está reservado          |
 
 </center>
 
