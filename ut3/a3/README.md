@@ -188,7 +188,7 @@ Los 3 últimos octetos, porque el primero es para la red.
 
 |  `ip`         | Máscara | Subred | Broadcast |
 |---------------|---------|--------|-----------|
-| 192.168.1.130 |         |        |           |
+| 192.168.1.130 |         |        |           | 
 | 10.1.1.3      |         |        |           |
 | 10.1.1.8      |         |        |           |
 | 200.1.1.23    |         |        |           |
@@ -199,6 +199,20 @@ Los 3 últimos octetos, porque el primero es para la red.
 
 10. Asignar direcciones `ip` válidas a las interfaces de red (interfaz de red = tarjeta de red) que les falte para conseguir que exista comunicación entre los host A, B, C, D, E y F. La máscara en todos los casos será `255.255.224.0`. Justifica la respuesta.
 
+~~~
+
+A: 172.33.43.5  Multiplico la dirección ip por la máscara de red
+
+254x43= 00101011*11100000= 00100000
+
+Hacer operación and
+
+Dirección de subred: 172.33.32.0
+
+Coge 3 bits, porque al pasar 254 a binario cambia 3 bits.
+
+
+
 <center>
 
 ![](img/001.png)
@@ -208,16 +222,41 @@ Los 3 últimos octetos, porque el primero es para la red.
 11. Tu empresa tiene una dirección de red de Clase C de `200.10.57.0` .Desea subdividir la red física en 3 subredes.
 
     + Indica una máscara que permita dividir la red de clase C (al menos) en tres subredes.
+
+        255.255.255.192
+
     + ¿Cuántos hosts (ordenadores) puede haber por subred?
+
+        2⁶-2=62
+
     + ¿Cuál es la dirección de red y la dirección de broadcast de cada una de las 3 subredes creadas?
+
+        De red: 200.10.57.0, 200.10.57.64, 200.10.57.128
+
+        De broadcast: 200.10.57.63, 200.10.57.127, 200.10.57.127
+
 
 12. Se desea subdividir la dirección de red de clase C de `200.10.57.0` en 4 subredes. Responde a las siguientes preguntas:
 
     + ¿Cuál es el equivalente en números binarios de la dirección de red de clase C `200.10.57.0` de este ejercicio?
+
+        11001000.00001010.00111001.00000000
+
     + ¿Cuál(es) es (son) el (los) octeto(s) que representa(n) la porción de red y cuál(es) es (son) el (los) octeto(s) que representa(n) la porción de host de esta dirección de red de clase C?
+
+        En la clase C, los primeros 3 octetos representan a la red y el último al host.
+
     + ¿Cuántos bits se deben pedir prestados a la porción de host de la dirección de red para poder suministrar 8 subredes?
+
+        3, porque 2³=8
+
     + ¿Cuál será la máscara de subred (utilizando la notación decimal) basándose en la cantidad de bits que se pidieron prestados en el paso 3?
+
+        255.255.255.224
+
     + ¿Cuál es el equivalente en números binarios de la máscara de subred a la que se hace referencia anteriormente?
+
+        11111111.11111111.11111111.11100000
 
 13. Teniendo en cuenta la dirección `ip` del ejercicio anterior (`200.10.57.0`) completa la siguiente tabla para cada una de las posibles subredes que se pueden crear pidiendo prestados 3 bits para subredes al cuarto octeto (octeto de host). Identifica la dirección de red, la máscara de subred, el intervalo de direcciones `ip` de host posibles para cada subred, la dirección de broadcast para cada subred.
 
