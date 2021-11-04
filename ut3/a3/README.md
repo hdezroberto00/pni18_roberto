@@ -100,8 +100,16 @@ Máscara de subred: 255.255.192.0
 
 
 5. ¿Cuál es el intervalo decimal y binario del primer octeto para todas las direcciones `ip` clase "B" posibles?
+
+Desde 128 a 191 en decimal, en binario, de 10000000 hasta 10111111.
+
 ¿Qué octeto u octetos representan la parte que corresponde a la red de una dirección `ip` clase "C"?
+
+Los 3 primeros octetos.
+
 ¿Qué octeto u octetos representan la parte que corresponde al host de una dirección `ip` clase "A"?
+
+Los 3 últimos octetos, porque el primero es para la red.
 
 6. Completa la siguiente tabla:
 
@@ -110,25 +118,52 @@ Máscara de subred: 255.255.192.0
 
 | Dirección `ip` del host | Dirección clase | Dirección de red | Dirección de host | Dirección de broadcast de red | Máscara de subred por defecto |
 |-----------------------|-----------------|------------------|-------------------|-------------------------------|-------------------------------|
-| 216.14.55.137         |                 |                  |                   |                               |                               |
-| 123.1.1.15            |                 |                  |                   |                               |                               |
-| 123.1.1.15            |                 |                  |                   |                               |                               |
-| 123.1.1.15            |                 |                  |                   |                               |                               |
-| 123.1.1.15            |                 |                  |                   |                               |                               |
+| 216.14.55.137         | C               |216.14.55.0       |216.14.55.137      |216.14.55.255                  |255.255.255.0                  |
+| 123.1.1.15            | A               |123.0.0.0         |123.1.1.15         |123.255.255.255                |255.0.0.0                      |
+| 150.127.221.224       | B               |150.127.0.0       |150.127.221.224    |150.127.255.255                |255.255.0.0                    |
+| 194.125.35.199        | C               |194.125.0.0       |194.125.35.199     |                               |                               |
+| 175.12.239.244        |                 |                  |                   |                               |                               |
 
 </center>
 
 7. Dada una dirección `142.226.0.15` :
 
     + ¿Cuál es el equivalente binario del segundo octeto?
+
+        11100010
+
     + ¿Cuál es la Clase de la dirección?
+
+        B
+
     + ¿Cuál es la dirección de red de esta dirección `ip`?
+
+        142.226.0.0 porque se multiplica por la máscara de red 255.255.0.0
+
     + ¿Es ésta una dirección de host válida? ¿Por qué? o ¿Por qué no?
+
+        Si, porque no corresponde a ninguna de las direcciones reservadas (la primera o la última).
+
     + ¿Cuál es la cantidad máxima de hosts que se pueden tener con una dirección de red de clase C? 
+
+        254 porque la primera y la última dirección están reservadas. 2⁸-2=254
+
     + ¿Cuántas redes de clase B puede haber?
+
+        2¹⁶= 65536. 16 porque tiene dos octetos para identificador de red.
+
     + ¿Cuántos hosts puede tener cada red de clase B?
+
+        2¹⁶-2=
+
     + ¿Cuántos octetos hay en una dirección `ip`?
+
+        4
+
     + ¿Cuántos bits puede haber por octeto?
+
+        8
+
 
 8. Determinar, para las siguientes direcciones de host `ip`, cuáles son las direcciones que son válidas para redes comerciales. Válida significa que se puede asignar a una estación de trabajo, servidor, impresora, interfaz de router, etc.
 
