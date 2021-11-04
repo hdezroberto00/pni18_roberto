@@ -199,8 +199,6 @@ Los 3 últimos octetos, porque el primero es para la red.
 
 10. Asignar direcciones `ip` válidas a las interfaces de red (interfaz de red = tarjeta de red) que les falte para conseguir que exista comunicación entre los host A, B, C, D, E y F. La máscara en todos los casos será `255.255.224.0`. Justifica la respuesta.
 
-~~~
-
 A: 172.33.43.5  Multiplico la dirección ip por la máscara de red
 
 254x43= 00101011*11100000= 00100000
