@@ -64,6 +64,18 @@ Máscara de subred: 255.255.255.224
 
 4. Dada la dirección de clase B `150.40.0.0`, indica qué máscara de subred deberías escoger para tener 4 subred. Rellena a continuación la siguiente tabla.
 
+Máscara de red: 255.255.0.0
+
+11111111.11111111.11000000.00000000 Cojo los 2 primeros bits del segundo octeto para crear la subred.
+
+Máscara de subred: 255.255.192.0
+
+10010110.00101000.00000000.00000000--> 150.40.0.0
+
+10010110.00101000.01000000.00000000--> 150.40.
+
+
+
 <center>
 
 
