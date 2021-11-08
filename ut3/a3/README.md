@@ -96,9 +96,9 @@ Máscara de subred: 255.255.192.0
 | Número de red | Dirección de subred | Primer host | Último host  |
 |---------------|---------------------|-------------|--------------|
 |1               |150.40.0.0          |150.40.0.1   |150.40.63.254 |
-| 2              |150.40.64.0         |150.40.64.1  |150.40.127.254|
-| 3              |150.40.128.0        |150.40.128.1 |150.40.191.254|
-| 4              |150.40.192.0        |150.40.192.1 |150.40.255.254|
+|2              |150.40.64.0         |150.40.64.1  |150.40.127.254|
+|3              |150.40.128.0        |150.40.128.1 |150.40.191.254|
+|4              |150.40.192.0        |150.40.192.1 |150.40.255.254|
 
 </center>
 
@@ -262,7 +262,13 @@ Coge 3 bits, porque al pasar 254 a binario cambia 3 bits.
 
 13. Teniendo en cuenta la dirección `ip` del ejercicio anterior (`200.10.57.0`) completa la siguiente tabla para cada una de las posibles subredes que se pueden crear pidiendo prestados 3 bits para subredes al cuarto octeto (octeto de host). Identifica la dirección de red, la máscara de subred, el intervalo de direcciones `ip` de host posibles para cada subred, la dirección de broadcast para cada subred.
 
+~~~
+
 Máscara de red: 255.255.255.0
+
+Máscara de subred: 255.255.255.224
+
+Dirección de red (multiplicando máscara de red por ip): 255.255.255.0
 
 11001000.00001010.00111001.00000000-> 200.10.57.0
 
@@ -280,19 +286,21 @@ Máscara de red: 255.255.255.0
 
 11001000.00001010.00111001.11100000-> 200.10.57.224
 
+~~~
+
 <center>
 
 
-|  Subred | Dirección de subred | Primer host      | Último host      |
-|---------|---------------------|------------------|------------------|
-| 1       |200.10.57.0          |200.10.57.1       |200.10.57.30      |
-| 2       |200.10.57.32         |200.10.57.33      |200.10.57.62      |
-| 3       |200.10.57.64         |200.10.57.65      |200.10.57.94      |
-| 4       |200.10.57.96         |200.10.57.97      |200.10.57.126     |
-| 5       |200.10.57.128        |200.10.57.129     |200.10.57.158     |
-| 6       |200.10.57.160        |200.10.57.161     |200.10.57.190     |
-| 7       |200.10.57.192        |200.10.57.193     |200.10.57.222     |
-| 8       |200.10.57.224        |200.10.57.225     |200.10.57.254     |
+|  Subred | Dirección de subred | Primer host      | Último host      | Dirección de Broadcast |
+|---------|---------------------|------------------|------------------|------------------------|
+| 1       |200.10.57.0          |200.10.57.1       |200.10.57.30      |200.10.57.31|
+| 2       |200.10.57.32         |200.10.57.33      |200.10.57.62      |200.10.57.63|
+| 3       |200.10.57.64         |200.10.57.65      |200.10.57.94      |200.10.57.95|
+| 4       |200.10.57.96         |200.10.57.97      |200.10.57.126     |200.10.57.98|
+| 5       |200.10.57.128        |200.10.57.129     |200.10.57.158     |200.10.57.130|
+| 6       |200.10.57.160        |200.10.57.161     |200.10.57.190     |200.10.57.162|
+| 7       |200.10.57.192        |200.10.57.193     |200.10.57.222     |200.10.57.223|
+| 8       |200.10.57.224        |200.10.57.225     |200.10.57.254     |200.10.57.255|
 
 </center>
 
@@ -316,14 +324,23 @@ Máscara de red: 255.255.255.0
 15. Responde a las siguientes preguntas:
 
     + Si tenemos una red `147.84.32.0` con máscara de red `255.255.255.252`, indica la dirección de broadcast, la de red y la de los posibles nodos de la red.
+
+        ? 
+
     + La red `192.168.0.0`, ¿de qué clase es?
+
+        Clase C
+
     + Escribe el rango de direcciones `ip` que pertenecen a la subred definida por la dirección `140.220.15.245` con máscara `255.255.255.240`.
+
+
+
     + Una red de clase B en Internet tiene una máscara de subred igual a `255.255.240.0`. ¿Cuál es el máximo de nodos por subred?
 
 16. Calcular la dirección de red y la dirección de broadcast (difusión) de las máquinas con las siguientes direcciones IP y máscaras de subred (si no se especifica, se utiliza la máscara por defecto).
 
-    + `18.120.16.250`
-    + `18.120.16.255 / 255.255.0.0`
+    + `18.120.16.250` Máscara de red: 255.0.0.0 Dirección de red: 18.0.0.0 Dirección de broadcast:
+    + `18.120.16.255 / 255.255.0.0` Dirección de red:  Dirección de broadcast:  
     + `155.4.220.39`
     + `194.209.14.33`
     + `190.33.109.133 / 255.255.255.0`
@@ -334,16 +351,64 @@ Máscara de red: 255.255.255.0
 17. Responde a las siguientes preguntas:
 
     + ¿Cuántos ordenadores como máximo se pueden tener en una red de clase A?
+
+        254 porque el primer y el último número están reservados.
+
     + ¿Cuántos ordenadores como máximo se pueden tener en una red de clase B?
+
+        254x255= 64.770
+
     + ¿Cuántos ordenadores como máximo se pueden tener en una red de clase C?
+
+        254x255x255= 16.516.350
+
     + En una red de clase C con máscara `255.255.255.128`, ¿cuántos ordenadores se pueden tener en cada subred?
+
+        
+
     + En una red de clase C con máscara `255.255.255.192`, ¿cuántos ordenadores se pueden tener en cada subred?
+
+
 
 18. Tu empresa tiene una dirección de red de Clase B de `150.10.0.0`. Desea subdividir la red física en 3 subredes.
 
     + Indica una máscara que permita dividir la red de clase B (al menos) en tres subredes.
+
+        Al ser de clase B hay que coger 2 bits del tercer octeto por lo tanto:
+
+        Máscara de red: 255.255.0.0
+
+        11111111.11111111.11000000.00000000= 255.255.192.0 Máscara de subred
+
+
+
+        10010110.00001010.00000000.00000000= 150.10.0.0
+
+        10010110.00001010.01100000.00000000= 150.10.96.0
+
+        10010110.00001010.10000000.00000000= 150.10.128.0
+
+        10010110.00001010.11100000.00000000= 150.10.224.0
+
     + ¿Cuántos hosts puede haber por subred?
+
+    Subred 1: 150.10.0.1 hasta 150.10.95.254
+
+    Subred 2: 150.10.96.1 hasta 150.10.127.254
+
+    Subred 3: 150.10.128.1 hasta 150.10.223.254
+
+    Subred 4: 150.10.224.1 hasta 150.10.255.254
+
     + ¿Cuál es la dirección de red y la dirección de broadcast de cada una de las 3 subredes creadas?
+
+        Subred 1: Dirección de red: 150.10.0.0 Dirección de broadcast: 150.10.95.255
+
+        Subred 2: Dirección de red: 150.10.96.0 Dirección de broadcast: 150.10.127.255
+
+        Subred 3: Dirección de red: 150.10.128.0 Dirección de broadcast: 150.10.223.255
+
+        Subred 4: Dirección de red: 150.10.224.0 Dirección de broadcast: 150.10.255.255
 
 19. Dada la dirección de clase B `120.32.0.0`, indica qué máscara de subred deberías escoger para tener 4 subredes. Rellena a continuación la siguiente tabla.
 
