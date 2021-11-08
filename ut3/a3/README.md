@@ -412,21 +412,44 @@ Dirección de red (multiplicando máscara de red por ip): 255.255.255.0
 
 19. Dada la dirección de clase B `120.32.0.0`, indica qué máscara de subred deberías escoger para tener 4 subredes. Rellena a continuación la siguiente tabla.
 
+Dirección de red en binario= 11110000.10000000.00000000.00000000
+
+Máscara de red: 255.255.0.0
+
+Máscara de subred: 11111111.11111111.11000000.00000000= 255.255.192.0
+
+11110000.10000000.00000000.00000000= 120.32.0.0
+
+11110000.10000000.01000000.00000000= 120.32.64.0
+
+11110000.10000000.10000000.00000000= 120.32.128.0
+
+11110000.10000000.11000000.00000000= 120.32.192.0
+
 <center>
 
 | Número de red | Dirección de subred | Primer host | Último host |
 |---------------|---------------------|-------------|-------------|
-|               |                     |             |             |
-|               |                     |             |             |
-|               |                     |             |             |
-|               |                     |             |             |
+|1               |120.32.0.0          |120.32.0.1   |120.32.63.254             |
+|2               |120.32.64.0         |120.32.64.1  |120.32.127.254             |
+|3               |120.32.128.0        |120.32.128.1 |120.32.191.254             |
+|4               |120.32.192.0        |120.32.192.1 |120.32.255.254             |
 
 </center>
 
 20. Responde a las siguientes preguntas:
 
     + Si tenemos una red `150.84.32.0` con máscara de red `255.255.255.224`, indica la dirección de broadcast, la de red y la de los posibles nodos de la red.
+
+
+
     + La red `192.168.0.0`, ¿de qué clase es?
+
+        Clase C, porque el primer octeto está en el rango de los de clase C.
+
     + Escribe el rango de direcciones `ip` que pertenecen a la subred definida por la dirección  `150.84.32.245` con máscara `255.255.255.240`.
+
+
+    
     + Una red de clase B en Internet tiene una máscara de subred igual a `255.255.240.0`. ¿Cuál es el máximo de nodos por subred?
 
