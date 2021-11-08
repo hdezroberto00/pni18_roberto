@@ -10,6 +10,10 @@
 
 2. Dada la dirección de red `192.168.30.0`, indica qué máscara de subred deberías escoger para tener 4 subredes. Rellena a continuación la siguiente tabla. 
 
+Para tener 4 subredes necesito 2^2, por lo tanto cogería los 2 primeros bits del último octeto que es el que define al host.
+
+Por lo tanto, 11111111.11111111.11111111.11000000 Esto pasado a decimal sería: 255.255.255.192
+
 <center>
 
 | Número de red | Dirección de subred | Primer host  | Último host  |
@@ -121,8 +125,8 @@ Los 3 últimos octetos, porque el primero es para la red.
 | 216.14.55.137         | C               |216.14.55.0       |216.14.55.137      |216.14.55.255                  |255.255.255.0                  |
 | 123.1.1.15            | A               |123.0.0.0         |123.1.1.15         |123.255.255.255                |255.0.0.0                      |
 | 150.127.221.224       | B               |150.127.0.0       |150.127.221.224    |150.127.255.255                |255.255.0.0                    |
-| 194.125.35.199        | C               |194.125.0.0       |194.125.35.199     |                               |                               |
-| 175.12.239.244        |                 |                  |                   |                               |                               |
+| 194.125.35.199        | C               |194.125.0.0       |194.125.35.199     |194.125.35.255                 |255.255.255.0                  |
+| 175.12.239.244        | B               |175.12.0.0        |175.12.239.244     |175.12.255.255                 |255.255.0.0                    |
 
 </center>
 
@@ -171,12 +175,12 @@ Los 3 últimos octetos, porque el primero es para la red.
 
 | Dirección `ip`  | ¿La dirección es válida? | ¿Por qué? |
 |-----------------|--------------------------|-----------|
-| 150.100.255.255 | No                         |Usa la dirección reservada para broadcast           |
-| 175.100.255.18  | Si                         |           |
-| 100.0.0.23      | Si                         |Es de clase A, y la dirección de host en la número 23           |
-| 188.258.221.176 | No                         |La dirección de red se pasa de 255           |
-| 127.34.25.189   | No                         |127 Está reservado           |
-| 224.156.217.73  | No                         |224 Está reservado          |
+| 150.100.255.255 | No                       |Usa la dirección reservada para broadcast           |
+| 175.100.255.18  | Si                       |Porque es clase B, que se usa para redes comerciales           |
+| 100.0.0.23      | Si                       |Es de clase A, y la dirección de host en la número 23           |
+| 188.258.221.176 | No                       |La dirección de red se pasa de 255           |
+| 127.34.25.189   | No                       |127 Está reservado           |
+| 224.156.217.73  | No                       |224 Está reservado          |
 
 </center>
 
@@ -188,8 +192,8 @@ Los 3 últimos octetos, porque el primero es para la red.
 | ip           | Máscara         | Subred        | Broadcast     |
 |--------------|-----------------|---------------|---------------|
 | 192.168.1.30 | 255.255.255.128 | 192.168.1.128 | 192.168.1.255 |
-| 10.1.1.3     | 255.255.0.0     |               |               |
-| 10.1.1.8     |                 | 10.1.0.0      | 10.1.255.255  |
+| 10.1.1.3     | 255.255.0.0     |               | 10.1.255.255  |
+| 10.1.1.8     | 255.255.0.0     | 10.1.0.0      | 10.1.255.255  |
 | 220.1.1.23   | 255.0.0.0       |               |               |
 | 172.168.8.48 | 255.255.248.0   |               |               |
 | 172.16.8.48  | 255.255.255.224 |               |               |
@@ -258,19 +262,37 @@ Coge 3 bits, porque al pasar 254 a binario cambia 3 bits.
 
 13. Teniendo en cuenta la dirección `ip` del ejercicio anterior (`200.10.57.0`) completa la siguiente tabla para cada una de las posibles subredes que se pueden crear pidiendo prestados 3 bits para subredes al cuarto octeto (octeto de host). Identifica la dirección de red, la máscara de subred, el intervalo de direcciones `ip` de host posibles para cada subred, la dirección de broadcast para cada subred.
 
+Máscara de red: 255.255.255.0
+
+11001000.00001010.00111001.00000000-> 200.10.57.0
+
+11001000.00001010.00111001.00100000-> 200.10.57.32
+
+11001000.00001010.00111001.01000000-> 200.10.57.64
+
+11001000.00001010.00111001.01100000-> 200.10.57.96
+
+11001000.00001010.00111001.10000000-> 200.10.57.128
+
+11001000.00001010.00111001.10100000-> 200.10.57.160
+
+11001000.00001010.00111001.11000000-> 200.10.57.192
+
+11001000.00001010.00111001.11100000-> 200.10.57.224
+
 <center>
 
 
 |  Subred | Dirección de subred | Primer host      | Último host      |
 |---------|---------------------|------------------|------------------|
-| 1       |                     |                  |                  |
-| 2       |                     |                  |                  |
-| 3       |                     |                  |                  |
-| 4       |                     |                  |                  |
-| 5       |                     |                  |                  |
-| 6       |                     |                  |                  |
-| 7       |                     |                  |                  |
-| 8       |                     |                  |                  |
+| 1       |200.10.57.0          |200.10.57.1       |200.10.57.30      |
+| 2       |200.10.57.32         |200.10.57.33      |200.10.57.62      |
+| 3       |200.10.57.64         |200.10.57.65      |200.10.57.94      |
+| 4       |200.10.57.96         |200.10.57.97      |200.10.57.126     |
+| 5       |200.10.57.128        |200.10.57.129     |200.10.57.158     |
+| 6       |200.10.57.160        |200.10.57.161     |200.10.57.190     |
+| 7       |200.10.57.192        |200.10.57.193     |200.10.57.222     |
+| 8       |200.10.57.224        |200.10.57.225     |200.10.57.254     |
 
 </center>
 
