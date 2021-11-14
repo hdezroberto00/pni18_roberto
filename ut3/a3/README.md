@@ -344,7 +344,7 @@ Dirección de red (multiplicando máscara de red por ip): 255.255.255.0
 
     + Si tenemos una red `147.84.32.0` con máscara de red `255.255.255.252`, indica la dirección de broadcast, la de red y la de los posibles nodos de la red.
 
-        ? 
+        ?
 
     + La red `192.168.0.0`, ¿de qué clase es?
 
@@ -359,12 +359,73 @@ Dirección de red (multiplicando máscara de red por ip): 255.255.255.0
 16. Calcular la dirección de red y la dirección de broadcast (difusión) de las máquinas con las siguientes direcciones IP y máscaras de subred (si no se especifica, se utiliza la máscara por defecto).
 
     + `18.120.16.250` Máscara de red: 255.0.0.0 Dirección de red: 18.0.0.0 Dirección de broadcast:
-    + `18.120.16.255 / 255.255.0.0` Dirección de red:  Dirección de broadcast:  
-    + `155.4.220.39`
-    + `194.209.14.33`
+    + `18.120.16.255 / 255.255.0.0` Dirección de red: Operación `and` entre ip y máscara de red: 00010010.01111000.00010000.11111111
+
+         11111111.11111111.00000000.00000000
+
+         00010010.01111000.00000000.00000000 = **18.120.0.0 (Dirección de red)**
+
+      Dirección de broadcast:  
+
+    + `155.4.220.39`    Máscara de red de clase B: 255.255.0.0
+
+    Opeación `and` entre ip y máscara de red:
+
+    10011011.00000100.11011100.00100111
+
+    11111111.11111111.00000000.00000000
+
+    10011011.00000100.00000000.00000000 = **155.4.0.0 (Dirección de red)**
+
+    Dirección de broadcast: 
+
+    + `194.209.14.33` Máscara de red clase C: 255.255.255.0
+
+    Opearación `and` entre ip y máscara:
+
+    11000010.11010001.00001110.00100001
+
+    11111111.11111111.11111111.00000000
+
+    11000010.11010001.00001110.00000000 = **194.209.14.0 (Dirección de red)**
+
+    Dirección de broadcast: **194.209.14.255**
+
     + `190.33.109.133 / 255.255.255.0`
+
+    Operación `and` entre ip y máscara de red:
+
+    10111110.00100001.01101101.10000101
+
+    11111111.11111111.11111111.00000000
+
+    10111110.00100001.01101101.00000000 = **190.33.109.0 (Dirección de red)**
+
+    Dirección de broadcast: 190.33.109.255
+
     + `190.33.109.133 / 255.255.255.128`
+
+    Operación `and` entre ip y máscara de red:
+
+    10111110.00100001.01101101.10000101
+
+    11111111.11111111.11111111.10000000
+
+    10111110.00100001.01101101.10000000 = **190.33.109.128 (Dirección de red)**
+
+    Dirección de broadcast:
+
     + `192.168.20.25 / 255.255.255.240` 
+
+    Operación `and` entre ip y máscara de red:
+
+    11000000.10101000.00010100.00011001
+
+    11111111.11111111.11111111.11110000
+
+    11000000.10101000.00010100.00010000 = **192.168.20.16 (Dirección de red)**
+
+
     + `192.168.20.25 / 255.255.255.192`
 
 17. Responde a las siguientes preguntas:
