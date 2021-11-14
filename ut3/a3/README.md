@@ -401,7 +401,7 @@ Dirección de red (multiplicando máscara de red por ip): 255.255.255.0
 
     10111110.00100001.01101101.00000000 = **190.33.109.0 (Dirección de red)**
 
-    Dirección de broadcast: 190.33.109.255
+    Dirección de broadcast: **190.33.109.255**
 
     + `190.33.109.133 / 255.255.255.128`
 
@@ -425,8 +425,19 @@ Dirección de red (multiplicando máscara de red por ip): 255.255.255.0
 
     11000000.10101000.00010100.00010000 = **192.168.20.16 (Dirección de red)**
 
+    Dirección de broadcast: **192.168.20.255**
 
     + `192.168.20.25 / 255.255.255.192`
+
+    Operación `and` entre ip y máscara de red:
+
+    11000000.10101000.00010100.00011001
+
+    11111111.11111111.11111111.11000000
+
+    11000000.10101000.00010100.00000000 = 192.168.20.0
+
+    Dirección de broadcast: 
 
 17. Responde a las siguientes preguntas:
 
@@ -456,11 +467,9 @@ Dirección de red (multiplicando máscara de red por ip): 255.255.255.0
 
         Al ser de clase B hay que coger 2 bits del tercer octeto por lo tanto:
 
-        Máscara de red: 255.255.0.0
+        **Máscara de red: 255.255.0.0**
 
         11111111.11111111.11000000.00000000= 255.255.192.0 Máscara de subred
-
-
 
         10010110.00001010.00000000.00000000= 150.10.0.0
 
@@ -520,6 +529,7 @@ Máscara de subred: 11111111.11111111.11000000.00000000= 255.255.192.0
 20. Responde a las siguientes preguntas:
 
     + Si tenemos una red `150.84.32.0` con máscara de red `255.255.255.224`, indica la dirección de broadcast, la de red y la de los posibles nodos de la red.
+
 
 
 
