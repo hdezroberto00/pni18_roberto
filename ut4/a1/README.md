@@ -41,7 +41,7 @@ Para esta práctica hay que partir de un cable UTP sin clavijas, poner una clavi
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/20220120_100949.jpg {width=40px height=400px})
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/20220120_100949.jpg)
 
 #### ***Conclusiones***. <a name="id5"></a>
 
