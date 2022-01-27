@@ -41,6 +41,8 @@ Para esta práctica hay que partir de un cable UTP sin clavijas, poner una clavi
 
 #### ***Desarrollo***. <a name="id4"></a>
 
+<center>
+
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/01.jpg)
 
 Cortamos un trozo de cable.
@@ -49,11 +51,20 @@ Cortamos un trozo de cable.
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/02.jpg)
 
+
 Quitamos el revestimiento y dejamos los cables al descubierto.
 
 ---
 
-![]()
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/03.jpg)
+
+Separamos los 4 pares de hilos y los ordenamos en este caso por el orden tipo A. En este caso es blanco-naranja, naranja, blanco-verde, azul, blanco-azul, verde, blanco-marrón, marrón.
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/04.jpg)
+
+
+
+</center>
 
 #### ***Conclusiones***. <a name="id5"></a>
 
