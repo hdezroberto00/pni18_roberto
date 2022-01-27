@@ -41,13 +41,13 @@ Para esta práctica hay que partir de un cable UTP sin clavijas, poner una clavi
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/20220120_100949.jpg)
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/01.jpg)
 
 Cortamos un trozo de cable.
 
 ---
 
-![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/IMG_20220120_101513.jpg)
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/02.jpg)
 
 Quitamos el revestimiento y dejamos los cables al descubierto.
 
