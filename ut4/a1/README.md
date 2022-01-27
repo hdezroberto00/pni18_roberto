@@ -43,6 +43,11 @@ Para esta práctica hay que partir de un cable UTP sin clavijas, poner una clavi
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/20220120_100949.jpg)
 
+Cortamos el cable.
+
+---
+
+
 #### ***Conclusiones***. <a name="id5"></a>
 
 En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
