@@ -39,8 +39,6 @@ Para esta práctica hay que partir de un cable UTP sin clavijas, poner una clavi
 
 + Tester de red
 
-+ Conector hembra
-
 #### ***Desarrollo***. <a name="id4"></a>
 
 <center>
@@ -101,6 +99,25 @@ Hacer un cable UTP es bastante sencillo y rápido, con los materiales y las herr
 
 # Cables UTP Hembra <a name="id7"></a>
 
-#### ***Introducción***. <a name="id1"></a>
+#### ***Introducción***. <a name="id8"></a>
 
-En la práctica anterior hicimos un cable que en los dos extremos era hembra, 
+En esta práctica usaremos el cable que acabamos de hacer, y en uno de los extremos usaremos un conector RJ-45 hembra.
+
+#### ***Objetivos***. <a name="id9"></a>
+
+En la práctica anterior hicimos un cable que en los dos extremos era macho, ahora vamos a cortar uno de los extremos y hacerlo hembra.
+
+#### ***Material empleado***. <a name="id10"></a>
+
++ Cable UTP
+
++ Conector RJ-45 hembra
+
++ Tijeras
+
++ Tester de red
+
+#### ***Desarrollo***. <a name="id11"></a>
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/01.jpg)
+
