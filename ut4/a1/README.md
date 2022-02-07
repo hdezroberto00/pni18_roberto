@@ -121,6 +121,3 @@ En la práctica anterior hicimos un cable que en los dos extremos era macho, aho
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/01.jpg)
 
-=======
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
->>>>>>> parent of 44a2a9e (a)
