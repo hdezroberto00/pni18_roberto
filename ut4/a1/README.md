@@ -63,6 +63,8 @@ Separamos los 4 pares de hilos y los ordenamos en este caso por el orden tipo A.
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/04.jpg)
   
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/04peque.jpg)
+  
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/05peque.jpg)
 
 
 
