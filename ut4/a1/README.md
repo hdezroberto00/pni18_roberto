@@ -170,3 +170,55 @@ Conectamos el otro extremo del cable al tester y en el hembra ponemos otro cable
 ---
 
 #### ***Conclusiones***. <a name="id12"></a>
+
+Hacer un cable UTP hembra también bastante sencillo. Colocar los cables en el orden correcto en el conector no es para nada complicado y es un proceso que se hace en pocos minutos.
+
+---
+
+# Cable cruzado <a name="id13"></a>
+
+#### ***Introducción***. <a name="id14"></a>
+
+Un cable cruzado conecta dos dispositivos del mismo tipo. En este tipo de cables se usa un orden de colores diferente en cada conector. En uno se usa la distribución de tipo A y en otro la de tipo B.
+
+#### ***Objetivos***. <a name="id15"></a>
+
+En esta práctica vamos a hacer un cable cruzado y a conectar dos ordenadores para comprobar que funciona.
+
+#### ***Material empleado***. <a name="id16"></a>
+
++ Cable UTP
+
++ Clavija RJ-45 (x2)
+
++ Tijeras
+
++ Crimpadora
+
++ Ordenador (x2)
+
+#### ***Desarrollo***. <a name="id17"></a>
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Cable%20directo/01.jpg)
+
+Cortamos un cable por los dos extremos, quitamos el recubrimiento y ponemos en orden los pares. En este caso al estar haciendo un cable cruzado el orden de los colores será invertido en cada extremo como vemos en la foto, a la izquierda el B y a la derecha el A.
+
+---
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Cable%20directo/02.jpg)
+
+Una vez hecho el cable y habiendo crimpado los conectores enchufamos cada extremo en un ordenador.
+
+---
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Cable%20directo/03.jpg)
+
+Con el cable conectado, en uno de los ordenadores hacemos ping a la ip del otro y comprobamos que hay conexión.
+
+---
+
+#### ***Conclusiones***. <a name="id12"></a>
+
+Hacer un cable cruzado es como hacer uno directo pero simplemente cambiando el orden de los colores. Estre proceso se puede hacer en unos pocos minutos.
+
+---
