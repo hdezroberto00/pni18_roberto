@@ -122,6 +122,3 @@ En la práctica anterior hicimos un cable que en los dos extremos era macho, aho
 #### ***Desarrollo***. <a name="id11"></a>
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/01.jpg)
-
-
-
