@@ -122,3 +122,43 @@ En la práctica anterior hicimos un cable que en los dos extremos era macho, aho
 #### ***Desarrollo***. <a name="id11"></a>
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/01.jpg)
+
+Cortamos un extremo del cable y separamos los 4 pares.
+
+---
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/02.jpg)
+
+Introducimos el cable por el hueco del conector hembra.
+
+---
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/03.jpg)
+
+Introducimos el cable de cada color por dónde nos indica el código de colores impreso en el plástico.
+
+---
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/04.jpg)
+
+Cortamos los cables pegados al plástico.
+
+---
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/06.jpg)
+
+Cerramos el plástico con la tapa y lo introducimos en el conector RJ-45 hembra.
+
+---
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/07.jpg)
+
+Cerramos el conector RJ-45 hasta que oigamos un click y ya estaría completado el cable hembra.
+
+--- 
+
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Hembra/08.jpg)
+
+Conectamos el otro extremo del cable al tester y en el hembra ponemos otro cable ethernet y comprobamos que se encienden las luces verdes en el tester.
+
+---
