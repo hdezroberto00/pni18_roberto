@@ -61,6 +61,8 @@ Quitamos el revestimiento y dejamos los cables al descubierto.
 Separamos los 4 pares de hilos y los ordenamos en este caso por el orden tipo A. En este caso es blanco-naranja, naranja, blanco-verde, azul, blanco-azul, verde, blanco-marrón, marrón.
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/04.jpg)
+  
+![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/04peque.jpg)
 
 
 
