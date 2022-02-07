@@ -22,7 +22,7 @@
 + [Material empleado](#id10)
 + [Desarrollo](#id11)
 + [Conclusiones](#id12)
-+ [Cables UTP Hembra](#id13)
++ [Cable cruzado](#id13)
 + [Introducción](#id14)
 + [Objetivos](#id15)
 + [Material empleado](#id16)
@@ -80,19 +80,13 @@ Cortamos los 4 pares uniformes para que puedan entrar en el conector de forma co
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/05.jpg)
 
-Insertamos los 4 pares en el conector RJ-45 y empujamos para asegurarnos de que lleguen hasta los conductores. En este paso, si el conector RJ-45 es transparente y permite ver el orden de los cables, comprobamos que están en el orden correctos y todos han llegado a su posición.
+Insertamos los 4 pares en el conector RJ-45 y empujamos para asegurarnos de que lleguen hasta los conductores. En este paso, si el conector RJ-45 es transparente y permite ver el orden de los cables, comprobamos que están en el orden correcto y todos han llegado a su posición.
 
 ---
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/06.jpg)
 
 Introducimos el conector en la ranura correspondiente a los 4 pares en la crimpadora y apretamos.
-
----
-
-![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/07.jpg)
-
-Cogemos el analizador de cables y comprobamos si tiene pila suficiente.
 
 ---
 
