@@ -219,7 +219,7 @@ Con el cable conectado, en uno de los ordenadores hacemos ping a la ip del otro 
 
 ---
 
-#### ***Conclusiones***. <a name="id12"></a>
+#### ***Conclusiones***. <a name="id18"></a>
 
 Hacer un cable cruzado es como hacer uno directo pero simplemente cambiando el orden de los colores. Estre proceso se puede hacer en unos pocos minutos.
 
