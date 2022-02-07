@@ -22,6 +22,12 @@
 + [Material empleado](#id10)
 + [Desarrollo](#id11)
 + [Conclusiones](#id12)
++ [Cables UTP Hembra](#id13)
++ [Introducción](#id14)
++ [Objetivos](#id15)
++ [Material empleado](#id16)
++ [Desarrollo](#id17)
++ [Conclusiones](#id18)
 
 # Cables UTP Macho <a name="id6"></a>
 
@@ -46,8 +52,6 @@ Para esta práctica hay que partir de un cable UTP sin clavijas, poner una clavi
 + Tester de red
 
 #### ***Desarrollo***. <a name="id4"></a>
-
-<center>
 
 ![](https://github.com/hdezroberto00/pni18_roberto/blob/main/ut4/a1/img/Macho/01.jpg)
 
@@ -97,8 +101,6 @@ Cogemos el analizador de cables y comprobamos si tiene pila suficiente.
 Enchufamos una parte del cable a cada extremo, le damos al botón de ON/OFF y comprobamos que se encienden luces verdes en todos los pares.
 
 ---
-
-</center>
 
 #### ***Conclusiones***. <a name="id5"></a>
 
