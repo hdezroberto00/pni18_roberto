@@ -170,7 +170,7 @@ Lo que pasa aquí es que con el `-i 2` le decimos que mande un paquete cada 2 se
 
 ![16](./img/16.png)
 
-
+Como vemos en la imagen los tiempos de latencia al gateway son mucho menores debido a  que está conectado por una red cableada y no hace falta salir a internet para hacer la conexión.
 
 ---
 
