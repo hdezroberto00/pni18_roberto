@@ -36,47 +36,59 @@ Usaré para la parte de windows mi máquina real y para la parte de linux una m�
 
 |                              |                                              |
 |------------------------------|----------------------------------------------|
-| Dirección IP v4              | 172.18.12.11                                 |
+| Dirección IP v4              | 172.18.99.160                                 |
 | Máscara                      | 255.255.0.0                                  |
 | Gateway                      | 172.18.0.1                                   |
 | MAC                          | 08-00-27-69-C6-B9                            |
 | Fabricante                   | Cadmus Computer Systems                      |
-| Dirección IP v6              | fe80::5deb:a897:36b0:e8d5                     |
-| Servidores DNS               | 1.1.1.1                                      |
-| Tiempo de concesión de la IP | Martes 8 de febrero - Miércoles 9 de febrero |
-| Nombre del adaptador de red  | Intel(R) Wireless-AC 9560 160MHz             |
+| Dirección IP v6              | fe80::5191:fa13:9f08:28ed                    |
+| Servidores DNS               | 80.58.61.250                                 |
+| Tiempo de concesión de la IP | jueves 10 febrero - viernes 11 de febrero    |
+| Nombre del adaptador de red  | Intel(R) PRO/1000 MT Desktop Adapter         |
 
 Haciendo uso del comando `ipconfig /all` saco toda esta información desde el powershell de windows.
+
+![01]()
 
 ---
 
 ### Liberar la configuración IP del adaptador con ipconfig /release y a continuación volver a usar el comando ipconfig. ¿Cuál es la ip ahora?
 
-¿?
+No hay ip.
+
+![02]()
 
 ---
 
 ### Ejecutar el comando ipconfig /renew solicitando una renovación de dirección IP. A continuación volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
 
-¿?
+La ip es la misma.
+
+![03]()
 
 ---
 
 ### Ejecutar el comando ipconfig /displaydns y comprobar la información que contiene la caché DNS de tu equipo. Ejecuta ahora el comando ipconfig /flushdns y después muestra otra vez el contenido de la caché DNS. ¿Qué información muestra ahora? ¿Qué ha ocurrido?
 
-¿?
+![04]()
+
+Se muestra la caché de la DNS.
+
+![05]()
+
+Por el uso del comando `ipconfig /flushdns`se muestra vacía la caché de la DNS.
 
 ---
 
 ### Usar el navegador para ir a la web http://www.iespuertodelacruz.es y luego ejecutar el comando ipconfig /displaydns. Hacer una captura de pantalla donde se muestre que se ha cacheado la ip de ese nombre de dominio y pegarla aquí debajo.
 
-¿?
+![06]()
 
 ---
 
 ### Borra la caché DNS con el comando ipconfig /flushdns y muestra una captura de pantalla en que se vea que ya no hay registros DNS en caché.
 
-¿?
+![07]()
 
 ---
 
