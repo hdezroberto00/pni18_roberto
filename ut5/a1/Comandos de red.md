@@ -32,15 +32,17 @@ Usaré para la parte de windows mi máquina real y para la parte de linux una m�
 
 #### ***Desarrollo***. <a name="id4"></a>
 
+## Comando	ipconfig	(Windows)
+
 |                              |                                              |
 |------------------------------|----------------------------------------------|
-| Dirección IP v4              | 172.18.99.25                                 |
+| Dirección IP v4              | 172.18.12.11                                 |
 | Máscara                      | 255.255.0.0                                  |
 | Gateway                      | 172.18.0.1                                   |
-| MAC                          | 14-4F-8A-6A-98-CA                            |
-| Fabricante                   | Intel                                        |
-| Dirección IP v6              | fe80::948b:6db2:5043:4921                    |
-| Servidores DNS               | 80.58.61.250                                 |
+| MAC                          | 08-00-27-69-C6-B9                            |
+| Fabricante                   | Cadmus Computer Systems                      |
+| Dirección IP v6              | fe80::5deb:a897:36b0:e8d5                     |
+| Servidores DNS               | 1.1.1.1                                      |
 | Tiempo de concesión de la IP | Martes 8 de febrero - Miércoles 9 de febrero |
 | Nombre del adaptador de red  | Intel(R) Wireless-AC 9560 160MHz             |
 
@@ -48,11 +50,66 @@ Haciendo uso del comando `ipconfig /all` saco toda esta información desde el po
 
 ---
 
-### Liberar la configuración IP del adaptador con ipconfig /release y a continuación volver a usar el comando ipconfig.
-**¿Cuál es la ip ahora?**
+### Liberar la configuración IP del adaptador con ipconfig /release y a continuación volver a usar el comando ipconfig. ¿Cuál es la ip ahora?
 
-adadadada
-.
+¿?
+
+---
+
+### Ejecutar el comando ipconfig /renew solicitando una renovación de dirección IP. A continuación volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
+
+¿?
+
+---
+
+### Ejecutar el comando ipconfig /displaydns y comprobar la información que contiene la caché DNS de tu equipo. Ejecuta ahora el comando ipconfig /flushdns y después muestra otra vez el contenido de la caché DNS. ¿Qué información muestra ahora? ¿Qué ha ocurrido?
+
+¿?
+
+---
+
+### Usar el navegador para ir a la web http://www.iespuertodelacruz.es y luego ejecutar el comando ipconfig /displaydns. Hacer una captura de pantalla donde se muestre que se ha cacheado la ip de ese nombre de dominio y pegarla aquí debajo.
+
+¿?
+
+---
+
+### Borra la caché DNS con el comando ipconfig /flushdns y muestra una captura de pantalla en que se vea que ya no hay registros DNS en caché.
+
+¿?
+
+---
+
+## Comando	ifconfig	(Línux)
+
+¿?
+
+---
+
+### Desactiva tu tarjeta de red con el comando ifconfig eth0 down. A continuación, comprueba con un ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea que ya no está activada.
+
+¿?
+
+---
+
+### Usa el comando ifconfig –a para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue ahí. Ahora activa la tarjeta con el comando ifconfig eth0 up y luego con el comando ifconfig comprueba que ya está habilitada.
+
+¿?
+
+---
+
+### Usa el comando ifconfig eth0 192.168.99.99 netmask 255.255.255.0 y pega una captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
+
+¿?
+
+---
+
+### Usa el comando ifconfig eth0 IP netmask Máscara (con la configuración inicial de red) y pega una captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
+
+¿?
+
+---
+
 
 #### ***Conclusiones***. <a name="id5"></a>
 
