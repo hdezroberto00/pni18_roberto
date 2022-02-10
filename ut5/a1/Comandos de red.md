@@ -51,8 +51,8 @@ Haciendo uso del comando `ipconfig /all` saco toda esta información desde el po
 ### Liberar la configuración IP del adaptador con ipconfig /release y a continuación volver a usar el comando ipconfig.
 **¿Cuál es la ip ahora?**
 
-
-
+adadadada
+.
 
 #### ***Conclusiones***. <a name="id5"></a>
 
