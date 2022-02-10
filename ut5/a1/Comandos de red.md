@@ -46,25 +46,25 @@ Usaré para la parte de windows mi máquina real y para la parte de linux una m�
 | Tiempo de concesión de la IP | jueves 10 febrero - viernes 11 de febrero    |
 | Nombre del adaptador de red  | Intel(R) PRO/1000 MT Desktop Adapter         |
 
-Haciendo uso del comando `ipconfig /all` saco toda esta información desde el powershell de windows.
-
 ![01](./img/01.png)
+
+Haciendo uso del comando `ipconfig /all` saco toda esta información desde el powershell de windows.
 
 ---
 
 ### Liberar la configuración IP del adaptador con ipconfig /release y a continuación volver a usar el comando ipconfig. ¿Cuál es la ip ahora?
 
-No hay ip.
-
 ![02](./img/02.png)
+
+Se ha desactivado, por lo tanto no hay ip.
 
 ---
 
 ### Ejecutar el comando ipconfig /renew solicitando una renovación de dirección IP. A continuación volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
 
-La ip es la misma.
-
 ![03](./img/03.png)
+
+La ip es la misma.
 
 ---
 
@@ -150,6 +150,17 @@ Compruebo que la ip y la máscara han vuelto a cambiar.
 
 ---
 
+## Comando ping
+
+### Desde una máquina con línux ejecuta el comando ping –s 100 –c 2 ip_puertadeenlace para que se envíen dos ecos de 100 bytes. Muestra una captura de pantalla con el resultado.
+
+---
+
+### Desde una máquina con windows usa el comando ping –i 2 ip_puertadeenlace para hacer un ping a nuestra puerta de enlace con un TTL igual a 2. Luego haz un ping de las mismas características, pero a google ping –i 2 www.google.es. Pega una captura de pantalla con el resultado y explica lo que ha pasado.
+
+---
+
+### El comando ping nos da información sobre el tiempo de latencia de una red. Haz un ping a nuestra puerta de enlace y luego a otro a www.google.es. Busca información de lo que es el tiempo de latencia y compara los tiempos de latencia en ambos casos. 
 
 #### ***Conclusiones***. <a name="id5"></a>
 
