@@ -48,7 +48,7 @@ Usaré para la parte de windows mi máquina real y para la parte de linux una m�
 
 Haciendo uso del comando `ipconfig /all` saco toda esta información desde el powershell de windows.
 
-![01](./img/1.png)
+![01](./img/01.png)
 
 ---
 
@@ -56,7 +56,7 @@ Haciendo uso del comando `ipconfig /all` saco toda esta información desde el po
 
 No hay ip.
 
-![02]()
+![02](./img/02.png)
 
 ---
 
@@ -64,17 +64,17 @@ No hay ip.
 
 La ip es la misma.
 
-![03]()
+![03](./img/03.png)
 
 ---
 
 ### Ejecutar el comando ipconfig /displaydns y comprobar la información que contiene la caché DNS de tu equipo. Ejecuta ahora el comando ipconfig /flushdns y después muestra otra vez el contenido de la caché DNS. ¿Qué información muestra ahora? ¿Qué ha ocurrido?
 
-![04]()
+![04](./img/04.png)
 
 Se muestra la caché de la DNS.
 
-![05]()
+![05](./img/05.png)
 
 Por el uso del comando `ipconfig /flushdns`se muestra vacía la caché de la DNS.
 
@@ -82,43 +82,71 @@ Por el uso del comando `ipconfig /flushdns`se muestra vacía la caché de la DNS
 
 ### Usar el navegador para ir a la web http://www.iespuertodelacruz.es y luego ejecutar el comando ipconfig /displaydns. Hacer una captura de pantalla donde se muestre que se ha cacheado la ip de ese nombre de dominio y pegarla aquí debajo.
 
-![06]()
+![06](./img/06.png)
 
 ---
 
 ### Borra la caché DNS con el comando ipconfig /flushdns y muestra una captura de pantalla en que se vea que ya no hay registros DNS en caché.
 
-![07]()
+![07](./img/07.png)
 
 ---
 
 ## Comando	ifconfig	(Línux)
 
-¿?
+|                              |                          |
+|------------------------------|--------------------------|
+| Dirección IP v4              | 172.18.99.130            |
+| Máscara                      | 255.255.0.0              |
+| Gateway                      |                          |
+| MAC                          | 08-00-27-69-C6-B9        |
+| Fabricante                   | Cadmus Computer Systems  |
+| Dirección IP v6              | fe80::c590:a8d9:c5a5:5c4 |
+| Servidores DNS               |                          |
+| TIempo de concesión de la IP |                          |
+| Nombre del adaptador de red  |enp0s3                    |
+
+El comando ifconfig no muestra la Gateway, el servidor DNS ni el tiempo de concesión de la IP.
+
+***NOTA: En las capturas de pantalla aparece el nombre de usuario "alumno" porque estoy utilizando una MV Lubuntu de la asignatura de Base de datos que ya tenía creada para poder usar el comando ifconfig***
+
+![08](./img/08.png)
 
 ---
 
 ### Desactiva tu tarjeta de red con el comando ifconfig eth0 down. A continuación, comprueba con un ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea que ya no está activada.
 
-¿?
+![09](./img/09.png)
+
+Desactivo la tarjeta de red y con el comando `ifconfig eth0 down` y compruebo que ya no aparece con el comando `ifconfig`.
 
 ---
 
 ### Usa el comando ifconfig –a para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue ahí. Ahora activa la tarjeta con el comando ifconfig eth0 up y luego con el comando ifconfig comprueba que ya está habilitada.
 
-¿?
+![10](./img/10.png)
+
+Con el comando `ifconfig -a`compruebo que la tarjeta sigue ahí.
+
+![11](./img/11.png)
+
+Vuelvo a activar la tarjeta de red y compruebo que está habilitada con el comando `ifconfig`.
 
 ---
 
 ### Usa el comando ifconfig eth0 192.168.99.99 netmask 255.255.255.0 y pega una captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
-¿?
+![12](./img/12.png)
+
+Compruebo que la ip y la máscara de red han cambiado.
 
 ---
 
 ### Usa el comando ifconfig eth0 IP netmask Máscara (con la configuración inicial de red) y pega una captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
-¿?
+![13](./img/13.png)
+
+Compruebo que la ip y la máscara han vuelto a cambiar.
 
 ---
 
