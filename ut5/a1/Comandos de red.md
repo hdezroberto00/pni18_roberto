@@ -154,13 +154,25 @@ Compruebo que la ip y la máscara han vuelto a cambiar.
 
 ### Desde una máquina con línux ejecuta el comando ping –s 100 –c 2 ip_puertadeenlace para que se envíen dos ecos de 100 bytes. Muestra una captura de pantalla con el resultado.
 
+![14](./img/14.png)
+
 ---
 
 ### Desde una máquina con windows usa el comando ping –i 2 ip_puertadeenlace para hacer un ping a nuestra puerta de enlace con un TTL igual a 2. Luego haz un ping de las mismas características, pero a google ping –i 2 www.google.es. Pega una captura de pantalla con el resultado y explica lo que ha pasado.
 
+![15](./img/15.png)
+
+Lo que pasa aquí es que con el `-i 2` le decimos que mande un paquete cada 2 segundos a la puerta de enlace y después a google.
+
 ---
 
 ### El comando ping nos da información sobre el tiempo de latencia de una red. Haz un ping a nuestra puerta de enlace y luego a otro a www.google.es. Busca información de lo que es el tiempo de latencia y compara los tiempos de latencia en ambos casos. 
+
+![16](./img/16.png)
+
+
+
+---
 
 #### ***Conclusiones***. <a name="id5"></a>
 
