@@ -48,7 +48,7 @@ Usaré para la parte de windows mi máquina real y para la parte de linux una m�
 
 Haciendo uso del comando `ipconfig /all` saco toda esta información desde el powershell de windows.
 
-<img source="./img/1">
+<img src="./img/1.png" margin="auto"></img>
 
 ---
 
