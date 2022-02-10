@@ -6,8 +6,8 @@
 
 </center>
 
-***Nombre:***
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+***Nombre:*** Roberto Hernández Martín
+***Curso:*** 1º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
 
@@ -262,6 +262,18 @@ No hay internet porque al cambiar la dirección MAC de la puerta de enlace el DH
 
 ---
 
+## Comando	nslookup
+
+### Averigua el nombre del servidor DNS de www.iespuertodelacruz.es. A continuación, ejecutamos el comando nslookup nombreServidorDNS y luego el comando nslookup nombreServidorDNS 8.8.8.8. Explica las causas de las diferencias que hay entre los resultados de las dos consultas.
+
+![28](./img/28.png)
+
+La dirección DNS de ***www.iespuertodelacruz.es*** es 88.198.18.148.
+
+![29](./img/29.png)
+
+![30](./img/30.png)
+
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+Las conclusiones que saco de la práctica son adversas, está bien conocer algunos comandos pero solo conseguí hacerlos funcionar en ubuntu, no consigo entender del todo bien el comando nslookup ya que a veces me dice bien lo que busco y otras me da información que no se interpretar.
