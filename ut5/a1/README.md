@@ -1,7 +1,7 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# COMANDOS DE RED
 
 
 </center>
@@ -170,7 +170,95 @@ Lo que pasa aquí es que con el `-i 2` le decimos que mande un paquete cada 2 se
 
 ![16](./img/16.png)
 
-Como vemos en la imagen los tiempos de latencia al gateway son mucho menores debido a  que está conectado por una red cableada y no hace falta salir a internet para hacer la conexión.
+Como vemos en la imagen los tiempos de latencia al gateway son mucho menores debido a que está conectado por una red cableada y no hace falta salir a internet para hacer la conexión como pasa en el caso de google.
+
+---
+
+## Comando route
+
+### Usa el comando route para ver la puerta de enlace de tu equipo. ¿Cuál es tu puerta de enlace?
+
+![17](./img/17.png)
+
+Mi puerta de enlace es 192.168.1.1.
+
+---
+
+### Borra la puerta de enlace usando el comando Route del default gw ip_gateway. A continuación, ejecuta el comando route para comprobar que ya no hay puerta de enlace. Intenta navegar por internet y verás que tampoco puedes. Haz una captura de pantalla con la salida del comando route y del resultado de ping 8.8.8.8 ¿Cómo interpretas el mensaje que te devuelve el ping?
+
+![18](./img/18.png)
+
+Borro la puerta de enlace y ejecuto el comando `route` para comprobar que ya no hay puerta de enlace.
+
+![19](./img/19.png)
+
+Compruebo que no puedo navegar por internet.
+
+![20](./img/20.png)
+
+Hago ping a 8.8.8.8 y como no tengo puerta de enlace no puedo tener salida a internet, por lo tanto el ping no se puede completar.
+
+---
+
+### Vuelve a configurar la puerta de enlace usando el comando route add default gw ip_gateway y comprueba que ya ha vuelto la puerta de enlace con el comando route.
+
+![21](./img/21.png)
+
+Configuro de nuevo la puerta de enlace con el comando `route add default gw 192.168.1.1` y compuebo que vuelvo a tener la puerta de enlace.
+
+---
+
+## Comando netstat
+
+### Abre una página web cualquiera y luego ejecuta el comando netstat -t para que nos muestre las conexiones que tenemos abiertas por tcp. Pon una captura de pantalla del resultado y explica lo que es cada una de las columnas que aparecen.
+
+![22](./img/22.png)
+
+De izquierda a derecha: Tipo de protocolo, datos a la espera de ser leídos, datos a la espera de ser enviados, usuario que está haciendo conexión y puerto, dirección del host al que intentamos conectarnos, estado del socket.
+
+---
+
+### Ahora espera unos segundos y vuelve a ejecutar netstat -tn. Comprobarás que algunas de las conexiones se han cerrado o están esperando para cerrarse. Además con la opción -n verás los  resultados en formato numérico. Pon una captura de pantalla y explica la diferencia entre Established, Time_wait y Close_Wait.
+
+![23](./img/23.png)
+
++ ESTABLISHED: Listo para comunicar.
+
++ TIME_WAIT: Indica que el cliente reconoce la conexión como activa pero no está actualmente en uso.
+
++ CLOSE WAIT: El host remoto ha cerrado la conexión pero la máquina local no la ha cerrado todavía.
+
+---
+
+### Ejecuta ahora la orden netstat -at para que muestre las tanto las conexiones tcp abiertas como los puertos que están a la escucha. Copia una captura de pantalla donde se vean los puertos que tienes escuchando, explica qué significan los asteriscos en la columna “Foreign address” e investiga si tener esos puertos abiertos es normal o supone una amenaza.
+
+![24](./img/24.png)
+
+Los asteriscos en la columna "Foreign address" significan que aún no se ha establecido el puerto y el número de puerto se muestra como "*".
+
+---
+
+### Ejecuta el comando netstat -s para ver las estadísticas de red y haz una captura en la que se vean cuantos paquetes tcp has recibido y cuantos de ellos han sido erróneos.
+
+![25](./img/25.png)
+
+He recibido 4532 paquetes y 0 han sido erróneos.
+
+---
+
+## Comando	arp.
+
+### Borra toda la caché ARP con el comando arp -d *. A continuación haz un ping a la puerta de enlace. Pon una captura de la tabla ARP en que se vea que solo está la puerta de enlace y su mac.
+
+![26](./img/26.png)
+
+---
+
+### Ahora borra manualmente la entrada arp de la puerta de enlace con la orden arp -d ip_puertadeenlace. Luego introduce manualmente una mac falsa para la puerta de enlace en la tabla arp con el comando arp -s ip_puertadeenlace aa:bb:cc:dd:ee:ff Haz una captura de pantalla en que se vea el resultado del comando arp -a y de hacer un ping a google. Explica por qué ahora no hay internet.
+
+![27](./img/27.png)
+
+No hay internet porque al cambiar la dirección MAC de la puerta de enlace el DHCP no le puede dar una IP válida.
 
 ---
 
