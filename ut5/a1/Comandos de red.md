@@ -82,8 +82,33 @@ Haciendo uso del comando `ipconfig /all` saco toda esta información desde el po
 
 ## Comando	ifconfig	(Línux)
 
-### Ejecuta el comando ifconfig y rellena lo que puedas de la siguiente tabla.
+¿?
 
+---
+
+### Desactiva tu tarjeta de red con el comando ifconfig eth0 down. A continuación, comprueba con un ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea que ya no está activada.
+
+¿?
+
+---
+
+### Usa el comando ifconfig –a para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue ahí. Ahora activa la tarjeta con el comando ifconfig eth0 up y luego con el comando ifconfig comprueba que ya está habilitada.
+
+¿?
+
+---
+
+### Usa el comando ifconfig eth0 192.168.99.99 netmask 255.255.255.0 y pega una captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
+
+¿?
+
+---
+
+### Usa el comando ifconfig eth0 IP netmask Máscara (con la configuración inicial de red) y pega una captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
+
+¿?
+
+---
 
 
 #### ***Conclusiones***. <a name="id5"></a>
