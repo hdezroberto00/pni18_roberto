@@ -20,7 +20,7 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Vamos a usar comandos relacionados con la configuración de red de un ordenador. Algunos de estos comandos son el `ipconfig` relacionados con establecer la dirección ip de nuestro ordenador dentro de una red. `ifoconfig`, su homólogo en Linux. Comandos para comprobar la conexión con otras máquinas como `ping` o `netstat`.
 
 #### ***Objetivos***. <a name="id2"></a>
 
@@ -28,7 +28,7 @@ Voy a aprender algunos comandos importantes para administrar una red. Más impor
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Usaré para la parte de windows mi máquina real y para la parte de linux una máquina virtual en VirtualBox. 
+Usaré para la parte de windows una máquina virtual de windows 10 y para la parte de linux una máquina virtual de Lubuntu. 
 
 #### ***Desarrollo***. <a name="id4"></a>
 
