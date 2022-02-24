@@ -1,13 +1,13 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# EJERCICIOS PACKET TRACER NIVEL DE ENLACE II
 
 
 </center>
 
-***Nombre:***
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+***Nombre:*** Roberto Hernández Martín
+***Curso:*** 1º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
 
@@ -20,19 +20,29 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Vamos a crear unos esquemas de redes en packet tracer.
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+Ver como funcionan las redes en el nivel de enlace.
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
++ Packet tracer
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+### Ejercicio 5
+
+![01](./img/01.png)
+
+Cuando muestro las direcciones mac que tiene registradas el switch no salen todas porque hay ordenadores que no están en la misma subred.
+
+![02](./img/02.png)
+
+Para comprobar que en los equipos se pueden ver las direcciones `ip` y `mac` de los otros ordenadores a los que nos hemos conectado hago uso del comando `arp -a`, en este caso conecté el PC01 con el PC09 ya que están en la misma subred y aquí comprobamos que se muestra.
+
+![02]()
 
 > ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 
