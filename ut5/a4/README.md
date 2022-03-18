@@ -242,6 +242,64 @@ Introduzco la contraseña WPS para poder acceder a la red.
 
 Compruebo la conectividad entre equipos. Solo se comunican el 1 y 3 porque son los que están conectados al mismo punto de acceso.
 
+---
+
+## Ejercicio 4 <a name="id9"></a>
+
+### Paso 1
+
+![4.1](./img/ejercicio4/01.png)
+
+![4.2](./img/ejercicio4/02.png)
+
+Conecto 2 WRT300N y configuro sus IP's de la misma manera que he hecho en ejercicios anteriores.
+
+---
+
+### Paso 2
+
+![4.3](./img/ejercicio4/03.png)
+
+![4.3](./img/ejercicio4/04.png)
+
+Cambio el SSID de las redes.
+
+---
+
+### Paso 3
+
+![4.3](./img/ejercicio4/05.png)
+
+Compruebo el rango de direcciones que da el DHCP, en este caso de la 192.168.1.100 a la 192.168.1.149.
+
+---
+
+### Paso 4
+
+![4.6](./img/ejercicio4/06.png)
+
+Inserto 4 PC's y los conecto el 1 y 3 a la RED1 y el 2 y 4 a la RED2.
+
+---
+
+![4.7](./img/ejercicio4/07.png)
+
+Compruebo que le da una IP el DHCP.
+
+---
+
+### Paso 5
+
+![4.8](./img/ejercicio4/08.png)
+
+Cambio el PC01 a la RED2 y veo que no cambia la IP.
+
+---
+
+![4.10](./img/ejercicio4/10.png)
+
+Reinicio el PC y aquí si veo que la da otra ip.
+
 #### ***Conclusiones***. <a name="id5"></a>
 
 En esta práctica he aprendido a configurar routers y a ponerle contraseñas a las redes inalámbricas. Me ha quedado claro este apartado de redes inalámbricas.
