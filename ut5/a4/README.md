@@ -194,6 +194,54 @@ Prueba de que al cambiar el SSID no hay conexión.
 
 ---
 
+## Ejercicio 3 <a name="id8"></a>
+
+### Paso 1
+
+![3.1](./img/ejercicio3/01.png)
+
+![3.2](./img/ejercicio3/02.png)
+
+Añado dos dispositivos Linksys WRT300N y le cambio la configuración por la de la imagen.
+
+---
+
+### Paso 2
+
+![3.3](./img/ejercicio3/03.png)
+
+![3.4](./img/ejercicio3/04.png)
+
+Cambio el SSID de las redes por RED1 y RED2.
+
+---
+
+### Paso 3
+
+![3.5](./img/ejercicio3/05.png)
+
+Introduzco clave WPS.
+
+---
+
+### Paso 4
+
+![3.6](./img/ejercicio3/06.png)
+
+Instalo PC's inalambricos igual que en las anteriores prácticas y los conecto el 1 y 3 a la RED1 y el 2 a la RED2.
+
+---
+
+![3.7](./img/ejercicio3/07.png)
+
+Introduzco la contraseña WPS para poder acceder a la red.
+
+---
+
+![3.8](./img/ejercicio3/08.png)
+
+Compruebo la conectividad entre equipos. Solo se comunican el 1 y 3 porque son los que están conectados al mismo punto de acceso.
+
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+En esta práctica he aprendido a configurar routers y a ponerle contraseñas a las redes inalámbricas. Me ha quedado claro este apartado de redes inalámbricas.
