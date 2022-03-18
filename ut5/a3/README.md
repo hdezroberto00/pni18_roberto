@@ -15,6 +15,9 @@
 + [Objetivos](#id2)
 + [Material empleado](#id3)
 + [Desarrollo](#id4)
++ [Ejercicio 5](#id6)
++ [Ejercicio 6](#id7)
++ [Ejercicio 7](#id8)
 + [Conclusiones](#id5)
 
 
@@ -32,7 +35,7 @@ Ver como funcionan las redes en el nivel de enlace.
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-## Ejercicio 5
+## Ejercicio 5 <a name="id6"></a>
 
 ### Paso 1
 
@@ -68,7 +71,7 @@ Aquí podemos ver la tabla arp de uno de los PC's.
 
 En este paso cambio las IP's de todos los PC's para que en grupos de 5 estén dentro de la misma subred. Esto se puede ver en el archivo `ejercicio_5_ipscambiadas` subido a este repositorio.
 
-## Ejercicio 6
+## Ejercicio 6 <a name="id7"></a>
 
 ### Paso 1
 
@@ -156,7 +159,7 @@ Cuando hago el comando telnet desde el pc con la IP del switch me da error en es
 
 ---
 
-## Ejercicio 7
+## Ejercicio 7 <a name="id8"></a>
 
 ### Paso 1
 
@@ -200,4 +203,4 @@ Desactivo el puerto y compruebo en la interfaz gráfica que se ha dejado de tene
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+En esta práctica he tenido algunas dificultades ya que ha habido algunos pasos que no he conseguido llevar a cabo, pero en general me ha quedado claro el desarrollo y no me han parecido muy dificiles los comandos utilizados.
