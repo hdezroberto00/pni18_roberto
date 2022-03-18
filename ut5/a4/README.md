@@ -15,6 +15,9 @@
 + [Material empleado](#id3)
 + [Desarrollo](#id4)
 + [Ejercicio 1](#id6)
++ [Ejercicio 2](#id7)
++ [Ejercicio 3](#id8)
++ [Ejercicio 4](#id9)
 + [Conclusiones](#id5)
 
 
