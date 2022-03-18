@@ -76,11 +76,15 @@ En este paso cambio las IP's de todos los PC's para que en grupos de 5 estén de
 
 Me conecto al switch a través de la consola del pc.
 
+---
+
 ### Paso 2
 
 ![6.2](./img/ejercicio6/02.png)
 
 Le cambio el nombre del switch a `Mi_primer_switch`.
+
+---
 
 ### Paso 3
 
@@ -88,11 +92,15 @@ Le cambio el nombre del switch a `Mi_primer_switch`.
 
 Desactivo la aparición de mensajes por consola.
 
+---
+
 ### Paso 4
 
 ![6.4](./img/ejercicio6/04.png)
 
 Activo la contarseña
+
+---
 
 ### Paso 5
 
@@ -100,9 +108,13 @@ Activo la contarseña
 
 Configuro la ip del switch.
 
+---
+
 ![6.7](./img/ejercicio6/07.png)
 
 Aquí hago ping entre el PC y el Switch. En este paso tuve problemas ya que en la práctica no se menciona que hay que unirlos con un cable de cobre, y sin este paso no se puede hacer ping.
+
+---
 
 ### Paso 6
 
@@ -110,13 +122,19 @@ Aquí hago ping entre el PC y el Switch. En este paso tuve problemas ya que en l
 
 Reincio el switch.
 
+---
+
 ![6.9](./img/ejercicio6/09.png)
 
 Compruebo que se borran los datos.
 
+---
+
 ![6.10](./img/ejercicio6/10.png)
 
-Copio running config a startup config. Y así no se borra la configuración
+Copio running config a startup config. Y así no se borra la configuración.
+
+---
 
 ### Paso 7
 
@@ -124,13 +142,61 @@ Copio running config a startup config. Y así no se borra la configuración
 
 En la práctica dice que hay que escribir el comando `enable password cisco`cuando se tiene # en la terminal, pero al escribirlo yo me sale error.
 
+---
+
 ![6.12](./img/ejercicio6/12.png)
 
 Cambiando la contraseña y line.
 
+---
+
 ![6.13](./img/ejercicio6/13.png)
 
 Cuando hago el comando telnet desde el pc con la IP del switch me da error en este paso y no se llega a conectar.
+
+---
+
+## Ejercicio 7
+
+### Paso 1
+
+![7.1](./img/ejercicio7/01.png)
+
+Colocamos una tarjeta de par trenzado Gigabit en el PC.
+
+---
+
+![7.2](./img/ejercicio7/02.png)
+
+Compruebo que el puerto da velocidad Gigabit.
+
+---
+
+![7.3](./img/ejercicio7/03.png)
+
+Bajo la velocidad del puerto por comandos.
+
+---
+
+![7.4](./img/ejercicio7/04.png)
+
+Compruebo que se ha bajado la velocidad del puerto.
+
+---
+
+![7.5](./img/ejercicio7/05.png)
+
+Vuelvo a poner la velocidad en auto para que se ponga por defecto a la del puerto (Gigabit).
+
+---
+
+### Paso 2
+
+![7.6](./img/ejercicio7/06.png)
+
+Desactivo el puerto y compruebo en la interfaz gráfica que se ha dejado de tener conexión.
+
+---
 
 #### ***Conclusiones***. <a name="id5"></a>
 
