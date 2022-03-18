@@ -1,12 +1,12 @@
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# Ejercicios Packet Tracer Nivel de enlace-Redes inalámbricas
 
 
 </center>
 
-***Nombre:***
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+***Nombre:*** Roberto Hernández Martín
+***Curso:*** 1º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
 
