@@ -32,35 +32,105 @@ Ver como funcionan las redes en el nivel de enlace.
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-### Ejercicio 5
+## Ejercicio 5
 
-![01](./img/ejercicio5/01.png)
+### Paso 1
 
-Cuando muestro las direcciones mac que tiene registradas el switch no salen todas porque hay ordenadores que no están en la misma subred.
+![5.9](./img/ejercicio5/09.png)
 
-![02](./img/ejercicio5/02.png)
+Coloco 3 switchs 2950-24 con sus respectivos nombres y conexiones entre ellos.
 
-Para comprobar que en los equipos se pueden ver las direcciones `ip` y `mac` de los otros ordenadores a los que nos hemos conectado hago uso del comando `arp -a`, en este caso conecté el PC01 con el PC09 ya que están en la misma subred y aquí comprobamos que se muestra.
+### Paso 2
 
-![02]()
+![5.10](./img/ejercicio5/10.png)
 
-### Ejercicio 6
+Coloco los 15 ordenadores con sus respectivas IP's.
+
+### Paso 3
+
+![5.3](./img/ejercicio5/03.png)
+![5.4](./img/ejercicio5/04.png)
+![5.5](./img/ejercicio5/05.png)
+
+Aquí encima vemos una tabla con los PC's, sus respectivas Ip's y las subredes a las que pertenecen. A la derecha de la tabla se ven los PC's a los que se pueden conectar.
+
+### Paso 4
+
+![5.6](./img/ejercicio5/06.png)
+
+Aqui se ven se ven las direcciones MAC.
+
+![5.7](./img/ejercicio5/07.png)
+
+Aquí podemos ver la tabla arp de uno de los PC's.
+
+### Paso 5
+
+En este paso cambio las IP's de todos los PC's para que en grupos de 5 estén dentro de la misma subred. Esto se puede ver en el archivo `ejercicio_5_ipscambiadas` subido a este repositorio.
+
+## Ejercicio 6
+
+### Paso 1
 
 ![6.1](./img/ejercicio6/01.png)
 
 Me conecto al switch a través de la consola del pc.
 
+### Paso 2
+
 ![6.2](./img/ejercicio6/02.png)
 
 Le cambio el nombre del switch a `Mi_primer_switch`.
 
-![6.2](./img/ejercicio6/03.png)
+### Paso 3
+
+![6.3](./img/ejercicio6/03.png)
 
 Desactivo la aparición de mensajes por consola.
 
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
+### Paso 4
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
+![6.4](./img/ejercicio6/04.png)
+
+Activo la contarseña
+
+### Paso 5
+
+![6.6](./img/ejercicio6/06.png)
+
+Configuro la ip del switch.
+
+![6.7](./img/ejercicio6/07.png)
+
+Aquí hago ping entre el PC y el Switch. En este paso tuve problemas ya que en la práctica no se menciona que hay que unirlos con un cable de cobre, y sin este paso no se puede hacer ping.
+
+### Paso 6
+
+![6.8](./img/ejercicio6/08.png)
+
+Reincio el switch.
+
+![6.9](./img/ejercicio6/09.png)
+
+Compruebo que se borran los datos.
+
+![6.10](./img/ejercicio6/10.png)
+
+Copio running config a startup config. Y así no se borra la configuración
+
+### Paso 7
+
+![6.11](./img/ejercicio6/11.png)
+
+En la práctica dice que hay que escribir el comando `enable password cisco`cuando se tiene # en la terminal, pero al escribirlo yo me sale error.
+
+![6.12](./img/ejercicio6/12.png)
+
+Cambiando la contraseña y line.
+
+![6.13](./img/ejercicio6/13.png)
+
+Cuando hago el comando telnet desde el pc con la IP del switch me da error en este paso y no se llega a conectar.
 
 #### ***Conclusiones***. <a name="id5"></a>
 
