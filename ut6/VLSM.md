@@ -33,13 +33,29 @@ Esto dejaría la máscara de red como, 255.255.255.11100000 = 255.255.255.224 = 
 
 La dirección de red sería `192.168.0.160/27`
 
-## Subred de 2 hosts
+## Primera subred de 2 hosts
 
-Para conseguir 2 hosts hay que coger 1 bit para hosts, porque 2^1=2.
+Para conseguir 2 hosts hay que coger 2 bit para hosts, porque 2^2=4.
 
-Esto dejaría la máscara de red como, 255.255.255.11111110 = 255.255.255.254 = /31
+Esto dejaría la máscara de red como, 255.255.255.11111100 = 255.255.255.252 = /30
 
-La dirección de red sería `192.168.0.162/31`
+La dirección de red sería `192.168.0.164/30`
+
+## Segunda subred de 2 hosts
+
+Para conseguir 2 hosts hay que coger 2 bit para hosts, porque 2^2=4.
+
+Esto dejaría la máscara de red como, 255.255.255.11111100 = 255.255.255.252 = /30
+
+La dirección de red sería `192.168.0.168/30`
+
+## Tercera subred de 2 hosts
+
+Para conseguir 2 hosts hay que coger 1 bit para hosts, porque 2^2=4.
+
+Esto dejaría la máscara de red como, 255.255.255.11111100 = 255.255.255.252 = /30
+
+La dirección de red sería `192.168.0.172/30`
 
 # Sumarización de rutas
 
@@ -48,7 +64,9 @@ Tenemos las redes:
 + `192.168.0.0/25`
 + `192.168.0.128/27`
 + `192.168.0.160/27`
-+ `192.168.0.162/31`
++ `192.168.0.164/30`
++ `192.168.0.168/30`
++ `192.168.0.172/30`
 
 ## Paso 1
 
@@ -59,7 +77,9 @@ Enumeramos en binario
 | 192.168.0.0      | 11000000 | 10101000 | 00000000 | 00000000 |
 | 192.168.0.128    | 11000000 | 10101000 | 00000000 | 10000000 |
 | 192.168.0.160    | 11000000 | 10101000 | 00000000 | 10100000 |
-| 192.168.0.162    | 11000000 | 10101000 | 00000000 | 10100010 |
+| 192.168.0.164    | 11000000 | 10101000 | 00000000 | 10100100 |
+| 192.168.0.168    | 11000000 | 10101000 | 00000000 | 10101000 |
+| 192.168.0.172    | 11000000 | 10101000 | 00000000 | 10101100 |
 
 ## Paso 2
 
@@ -70,7 +90,9 @@ Contar el número de bits coincidentes
 | **192.168.0.0**      | **11000000** | **10101000** | **00000000** | 00000000 |
 | **192.168.0.128**    | **11000000** | **10101000** | **00000000** | 10000000 |
 | **192.168.0.160**    | **11000000** | **10101000** | **00000000** | 10100000 |
-| **192.168.0.162**    | **11000000** | **10101000** | **00000000** | 10100010 |
+| **192.168.0.164**    | **11000000** | **10101000** | **00000000** | 10100100 |
+| **192.168.0.168**    | **11000000** | **10101000** | **00000000** | 10101000 |
+| **192.168.0.172**    | **11000000** | **10101000** | **00000000** | 10101100 |
 
 Coinciden los 24 primeros bits desde la izquierda, por lo tanto la máscara de subred para la ruta sumarizada es /24 ó 255.255.255.0
 
