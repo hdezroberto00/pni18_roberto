@@ -39,7 +39,7 @@ Para conseguir 2 hosts hay que coger 2 bit para hosts, porque 2^2=4.
 
 Esto dejaría la máscara de red como, 255.255.255.11111100 = 255.255.255.252 = /30
 
-La dirección de red sería `192.168.0.164/30`
+La dirección de red sería `192.168.0.192/30`
 
 ## Segunda subred de 2 hosts
 
@@ -47,7 +47,7 @@ Para conseguir 2 hosts hay que coger 2 bit para hosts, porque 2^2=4.
 
 Esto dejaría la máscara de red como, 255.255.255.11111100 = 255.255.255.252 = /30
 
-La dirección de red sería `192.168.0.168/30`
+La dirección de red sería `192.168.0.196/30`
 
 ## Tercera subred de 2 hosts
 
@@ -55,7 +55,7 @@ Para conseguir 2 hosts hay que coger 1 bit para hosts, porque 2^2=4.
 
 Esto dejaría la máscara de red como, 255.255.255.11111100 = 255.255.255.252 = /30
 
-La dirección de red sería `192.168.0.172/30`
+La dirección de red sería `192.168.0.200/30`
 
 # Sumarización de rutas
 
