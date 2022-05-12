@@ -1,3 +1,13 @@
+# Ejercicio 1
+
+## Subred de 1000 hosts
+
+Para conseguir 1000 hosts hay que coger 10 bits porque 2^10 son 1024 hosts disponibles.
+
+Esto dejaría la máscara de red como: 255.255.00000011.11111111 = 255
+
+# Ejercicio 3
+
 Huelva-Sevilla
 
 | 172.16.64.0 | 10101100 | 00010000 | 01000000 | 00000000 |
