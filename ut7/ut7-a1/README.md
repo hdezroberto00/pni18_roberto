@@ -26,7 +26,16 @@ Me conecto al router mediante telnet desde la PC-A.
 
 No puedo conectarme por ssh al router ya que me da error. Tampoco existe la llamada Tera Term.
 
++ Además de configurar una longitud mínima, enumere otras formas de aportar seguridad a las
+contraseñas. Poniendo caracteres especiales y números.
+
++ ¿Qué resultado obtendría al volver a cargar el router antes de completar el comando copy runningconfig startup-config? No se guardaría la configuración y perderiamos los cambios hechos.
+
 ## Parte 3
+
+![](img/14.png)
+
+En este paso intento iniciar sesión con ssh en el R1 con el usuario admin pero me da este error.
 
 ![](img/07.png) ![](img/08.png)
 
@@ -61,3 +70,6 @@ No shutdown.
 
 Configuro la IPv6 del R1.
 
+![](img/12.png)
+
+Configuración de ip de la PC-B.
