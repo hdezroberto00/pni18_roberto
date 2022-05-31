@@ -70,14 +70,14 @@ S1(config-if)#switchport mode access
 S1(config-if)#switchport access vlan 10
 ~~~
 
-####PC5
+#### PC5
 ~~~
 S1(config)#interface fastEthernet 0/5
 S1(config-if)#switchport mode access 
 S1(config-if)#switchport access vlan 10
 ~~~
 
-####PC8
+#### PC8
 ~~~
 S1(config)#interface fastEthernet 0/8
 S1(config-if)#switchport mode access 
@@ -85,14 +85,14 @@ S1(config-if)#switchport access vlan 10
 ~~~
 + PC2 y PC6 forman el grupo de trabajo para el desarrollo del **proyecto20**
 
-####PC2
+#### PC2
 ~~~
 S1(config)#interface fastEthernet 0/2
 S1(config-if)#switchport mode access 
 S1(config-if)#switchport access vlan 20
 ~~~
 
-####PC6
+#### PC6
 ~~~
 S1(config)#interface fastEthernet 0/6
 S1(config-if)#switchport mode access 
@@ -101,21 +101,21 @@ S1(config-if)#switchport access vlan 20
 ~~~
 + PC3, PC4 y PC7 forman el grupo de trabajo para el desarrollo del **proyecto30**
 
-####PC3
+#### PC3
 ~~~
 S1(config)#interface fastEthernet 0/3
 S1(config-if)#switchport mode access 
 S1(config-if)#switchport access vlan 30
 ~~~
 
-####PC4
+#### PC4
 ~~~
 S1(config)#interface fastEthernet 0/4
 S1(config-if)#switchport mode access 
 S1(config-if)#switchport access vlan 30
 ~~~
 
-####PC7
+#### PC7
 ~~~
 S1(config)#interface fastEthernet 0/7
 S1(config-if)#switchport mode access 
