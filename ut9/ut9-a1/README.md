@@ -63,7 +63,7 @@ VLAN Name                             Status    Ports
 
 + PC1, PC5 y PC8 forman el equipo de trabajo para el desarrollo del **proyecto10**
 
-####PC1
+#### PC1
 ~~~
 S1(config)#interface fastEthernet 0/1
 S1(config-if)#switchport mode access 
