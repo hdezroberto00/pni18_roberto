@@ -2,7 +2,7 @@
 
 ## Subred de 2000 hosts
 
-Para conseguir 1000 hosts hay qeu coger 11 bits porque 2^11 son 2044 hosts disponibles.
+Para conseguir 1000 hosts hay que coger 11 bits porque 2^11 son 2044 hosts disponibles.
 
 Esto dejaría la máscara como: 255.255.11111000.00000000 = 255.255.248.0 = /21
 
